@@ -1,0 +1,2031 @@
+entity_id,name,ticker,sec_cik
+1,Walmart,WMT,104169
+2,ExxonMobil,XOM,34088
+3,"Chevron Corporation",CVX,93410
+4,"General Motors Company",GM,1467858
+5,ConocoPhillips,COP,1163165
+6,"General Electric",GE,40545
+7,"Ford Motor",F,37996
+8,"Citigroup Inc.",C,831001
+9,"Bank of America",BAC,70858
+10,"AT&T, Inc.",T,732717
+11,"Berkshire Hathaway Inc.",BRKA,1067983
+12,"JPMorgan Chase",JPM,19617
+13,AIG,AIG,5272
+14,Hewlett-Packard,HPQ,47217
+15,IBM,IBM,51143
+16,"Valero Energy Corporation",VLO,1035002
+17,Verizon,VZ,732712
+18,McKesson,MCK,927653
+19,"Cardinal Health, Inc.",CAH,721371
+20,"Goldman Sachs",GS,886982
+21,"Morgan Stanley",MS,895421
+22,"The Home Depot, Inc.",HD,354950
+23,"The Procter & Gamble Company",PG,80424
+24,"CVS Caremark",CVS,64803
+25,"UnitedHealth Group, Inc.",UNH,731766
+26,"The Kroger Co.",KR,56873
+27,"The Boeing Company",BA,12927
+28,AmerisourceBergen,ABC,1140859
+29,"Costco Wholesale Corporation",COST,909832
+30,"Merrill Lynch",MER,65100
+31,"Target Corporation",TGT,27419
+33,"WellPoint, Inc.",WLP,1156039
+34,"Dell Inc",DELL,826083
+35,"Johnson & Johnson",JNJ,200406
+36,"Marathon Oil Corporation",MRO,101778
+37,"Lehman Brothers",LEH,NULL
+38,"Wachovia Corporation",WB,36995
+39,"United Technologies Corporation",UTX,101829
+40,"Walgreen Co.",WAG,104207
+41,"Wells Fargo",WFC,72971
+42,"Dow Chemical",DOW,29915
+43,MetLife,MET,1099219
+44,"Microsoft Corporation",MSFT,789019
+46,"Sears Holdings Corporation",SHLD,1310067
+47,"United Parcel Service, Inc.",UPS,1090727
+48,"Pfizer Inc.",PFE,78003
+49,Lowe's,LOW,60667
+50,"Time Warner Inc.",TWX,1105705
+51,"Caterpillar, Inc.",CAT,18230
+52,"Medco Health Solutions",MHS,1170650
+53,"Archer Daniels Midland",ADM,7084
+54,"Fannie Mae",FNM,310522
+55,"Freddie Mac",FRE,1026214
+56,Safeway,SWY,86144
+57,"Sunoco, Inc.",SUN,95304
+58,"Lockheed Martin Corporation",LMT,936468
+59,"Sprint Nextel",S,101830
+60,"PepsiCo, Inc.",PEP,77476
+61,"Intel Corporation",INTC,50863
+62,"Altria Group, Inc.",MO,764180
+63,Supervalu,SVU,95521
+64,"Mondelēz International, Inc.",KFT,1103982
+65,"The Allstate Corporation",ALL,899051
+66,Motorola,MOT,68505
+67,"Best Buy Co, Inc.",BBY,764478
+68,"The Walt Disney Company",DIS,1001039
+69,"Federal Express Corporation",FDX,1048911
+70,"Ingram Micro",IM,1018003
+71,Sysco,SYY,96021
+72,"Cisco Systems, Inc.",CSCO,858877
+73,"Johnson Controls",JCI,53669
+74,"Honeywell International Inc.",HON,773840
+75,"Prudential Financial",PRU,1137774
+76,"American Express Company",AXP,4962
+77,"Northrop Grumman Corporation",NOC,1133421
+78,"Hess Corporation",HES,4447
+79,"Ally Financial Inc.",GJM,40729
+80,"Comcast Corporation",CMCSA,1166691
+81,"ALCOA INC",AA,4281
+82,DuPont,DD,30554
+84,"The Coca-Cola Company",KO,21344
+85,"News Corporation",NWS,1308161
+86,"Aetna Inc.",AET,1122304
+88,"General Dynamics",GD,40533
+89,"Tyson Foods",TSN,100493
+91,"Enterprise GP Holdings",EPE,1324592
+92,Macy's,M,794367
+94,"The Travelers Companies, Inc.",TRV,86312
+96,"The Hartford Financial Services Group, Inc.",HIG,874766
+97,"Abbott Laboratories",ABT,1800
+98,"Washington Mutual",WM,823768
+99,"Humana Inc.",HUM,49071
+101,"3M Company",MMM,66740
+102,Merck,MRK,64978
+103,"Deere & Company",DE,315189
+104,Apple,AAPL,320193
+105,"Countrywide Financial Corp.",CFC,25191
+106,"Tech Data",TECD,790703
+107,"McDonald's Corporation",MCD,63908
+110,"American Airlines Group Inc.",AAL,6201
+112,"Emerson Electric",EMR,32604
+113,"Raytheon Company",RTN,1047122
+114,Wyeth,WYE,5187
+115,"International Paper",IP,51434
+116,"Electronic Data Systems",EDS,1007456
+117,"Tesoro Petroleum Companies, Inc.",TSO,50104
+118,"Constellation Energy",CEG,1004440
+119,"Coca-Cola Enterprises, Inc.",CCE,804055
+120,"Goodyear Tire & Rubber",GT,42582
+121,Manpower,MAN,871763
+122,"Plains All American Pipeline, L.P.",PAA,1070423
+123,"US Bancorp",USB,36104
+124,"Occidental Petroleum",OXY,797468
+125,"United Continental Holdings, Inc.",UAUA,100517
+126,"Bristol-Myers Squibb Company",BMY,14272
+127,"JC Penney",JCP,1166126
+128,"Whirlpool Corporation",WHR,106640
+129,Staples,SPLS,791519
+130,"Delta Air Lines",DAL,27904
+131,"Capital One Financial Corporation",COF,927628
+132,Exelon,EXC,1109357
+133,"The TJX Companies, Inc.",TJX,109198
+134,"Eli Lilly",LLY,59478
+135,"Murphy Oil",MUR,717423
+136,"Express Scripts",ESRX,885721
+137,Kimberly-Clark,KMB,55785
+138,Oracle,ORCL,1341439
+139,AutoNation,AN,350698
+140,Loews,LTR,60086
+141,"Freeport-McMoRan Copper & Gold, Inc.",FCX,831259
+142,Cigna,CI,701221
+143,"Rite Aid",RAD,84129
+144,"DirecTV Group",DTV,944868
+145,Xerox,XRX,108772
+147,"United States Steel Corporation",X,1163302
+148,Weyerhaeuser,WY,106535
+149,"Fluor Corporation",FLR,1124198
+150,Anheuser-Busch,BUD,310569
+151,"Google Inc.",GOOG,1288776
+152,Nucor,NUE,73309
+153,Kohl's,KSS,885639
+154,Nike,NKE,320187
+155,"Union Pacific Corporation",UNP,100885
+156,"Illinois Tool Works",ITW,49826
+158,Lear,LEA,842162
+159,"Arrow Electronics, Inc.",ARW,7536
+160,"Anadarko Petroleum Corporation",APC,773910
+161,"Burlington Northern Santa Fe, LLC",BNI,934612
+162,"Dominion Resources",D,715957
+163,"Gap, Inc.",GPS,39911
+164,"Avnet, Inc.",AVT,8858
+165,"Office Depot",ODP,800240
+166,"AFLAC Incorporated",AFL,4977
+167,Southern,SO,92122
+168,"Halliburton Company",HAL,45012
+169,"FPL Group",FPL,753308
+170,Paccar,PCAR,75362
+171,"Computer Sciences Corporation",CSC,23082
+172,"Amazon.com, Inc.",AMZN,1018724
+173,"The Bank of New York Mellon Corporation",BK,1390777
+174,Amgen,AMGN,318154
+175,"TRW Automotive Holdings",TRW,1267097
+176,Progressive,PGR,80661
+178,Centex,CTX,18532
+179,"Continental Airlines, Inc.",CAL,319687
+180,"Health Net",HNT,916085
+181,Chubb,CB,20171
+182,"CBS Corporation",CBS,813828
+183,"L-3 Communications Holdings, Inc.",LLL,1056239
+184,AES,AES,874761
+185,"Sun Microsystems",JAVA,709519
+186,"Texas Instruments",TXN,97476
+187,Colgate-Palmolive,CL,21665
+188,"Qwest Communications International Inc.",Q,1037949
+189,"World Fuel Services Corporation",INT,789460
+191,"The Pepsi Bottling Group, Inc.",PBG,1076405
+192,Viacom,VIAB,1339947
+193,"ONEOK, Inc.",OKE,1039684
+194,"SunTrust Banks, Inc.",STI,750556
+195,"Penske Automotive Group",PAG,1019849
+196,"Consolidated Edison",ED,1047862
+197,"American Electric Power Company, Inc.",AEP,4904
+198,"Marriott International, Inc.",MAR,1048286
+199,"Public Service Enterprise Group",PEG,788784
+200,"Waste Management, Inc.",WMI,823768
+201,"PG&E Corp",PCG,1004980
+202,"EMC CORPORATION",EMC,790070
+203,"Textron Inc.",TXT,217346
+204,"The Hillshire Brands Company",HSH,23666
+205,"Duke Energy Corporation",DUK,1326160
+206,"Edison International",EIX,827052
+207,"Cummins, Inc.",CMI,26172
+208,"Eaton Corporation",ETN,31277
+209,Williams,WMB,107263
+210,"FirstEnergy Corp.",FE,1031296
+211,"ConAgra Foods Inc",CAG,23217
+212,"Omnicom Group",OMC,29989
+213,Schering-Plough,SGP,310158
+214,"Northwest Airlines",NWA,NULL
+215,"General Mills",GIS,40704
+216,"Circuit City Stores",CC,104599
+218,Medtronic,MDT,64670
+219,"PPG Industries",PPG,79879
+220,"Jabil Circuit",JBL,898293
+221,"Marsh & McLennan",MMC,62709
+222,"Devon Energy Corporation",DVN,1090012
+224,Masco,MAS,62996
+225,"Dean Foods",DF,931336
+226,"State Street Corporation",STT,93751
+227,"National City Corp",NCC,69970
+228,"Kellogg Company",K,55067
+229,"US Airways Group, Inc.",LCC,701345
+230,"RR Donnelley & Sons",RRD,29669
+232,"Entergy Corporation",ETR,65984
+233,"Sempra Energy",SRE,1032208
+234,"Genworth Financial",GNW,1276520
+235,Visteon,VC,1111335
+236,"DR Horton",DHI,882184
+237,"Baxter International, Inc.",BAX,10456
+238,"Reliant Energy",RRI,1126294
+239,"Eastman Kodak",EK,31235
+240,Danaher,DHR,313616
+241,"DISH Network",DISH,1001082
+242,Trane,TT,836102
+243,"Principal Financial Group, Inc.",PFG,1126328
+244,"Genuine Parts",GPC,40987
+246,"Regions Financial",RF,1281761
+247,"Lincoln National Corporation",LNC,59558
+248,"Parker Hannifin",PH,76334
+249,"Progress Energy",PGN,1094093
+250,"Huntsman Corporation",HUN,1307954
+251,"BB&T Corporation",BBT,92230
+252,"Unum Group",UNM,5513
+253,"Baker Hughes Incorporated",BHI,808362
+254,"Yum Brands",YUM,1041061
+255,"Integrys Energy Group",TEG,916863
+256,Sanmina-SCI,SANM,897723
+257,Lennar,LEN,920760
+258,"Limited Brands",LTD,701985
+259,"Air Products and Chemicals Inc",APD,2969
+261,"Xcel Energy Inc.",XEL,72903
+262,"CSX Corporation",CSX,277948
+263,"Apache Corporation",APA,6769
+264,Aon,AOC,315293
+265,"PNC Financial Services Group Inc.",PNC,713676
+266,"Avon Products",AVP,8868
+267,"Coventry Health Care",CVH,1054833
+268,"Southwest Airlines",LUV,92380
+269,"National Oilwell Varco",NOV,1021860
+270,"Thermo Fisher Scientific",TMO,97745
+271,"Applied Materials",AMAT,6951
+272,"CenterPoint Energy",CNP,1130310
+273,"YRC Worldwide Inc",YRCW,716006
+274,"DTE Energy",DTE,936340
+276,"Liberty Media Corporation",LCAPA,1355096
+277,"Norfolk Southern Corporation",NSC,702165
+278,"Starbucks Corporation",SBUX,829224
+279,Praxair,PX,884905
+280,"Pepco Holdings, Inc.",POM,1135971
+281,"Tenet Healthcare",THC,70318
+282,"Automatic Data Processing, Inc.",ADP,8670
+283,"Pulte Homes",PHM,822416
+284,"Dana Holding",DAN,26780
+285,"KBR, Inc.",KBR,1357615
+286,"ITT Corporation",ITT,216228
+287,"Sallie Mae",SLM,1032033
+288,Terex,TEX,97216
+289,OfficeMax,OMX,12978
+290,SAIC,SAI,1336920
+291,"Reynolds American",RAI,1275283
+292,"BJ's Wholesale Club",BJ,1037461
+293,"Liberty Global, Inc.",LBTYA,1316631
+294,"H. J. Heinz Company",HNZ,46640
+296,"Rohm & Haas",ROH,84792
+297,"Ameriprise Financial",AMP,820027
+298,Qualcomm,QCOM,804328
+299,"Sonic Automotive",SAH,1043509
+300,Nordstrom,JWN,72333
+302,ArvinMeritor,ARM,1113256
+303,"Smith International",SII,721083
+304,"Commercial Metals",CMC,22444
+305,"Hertz Global Holdings",HTZ,1364479
+306,"Monsanto Company",MON,1110783
+307,"CIT Group Inc.",CIT,1171825
+308,"Fifth Third Bancorp",FITB,35527
+309,"Jacobs Engineering Group",JEC,52988
+310,"Assurant, Inc.",AIZ,1267238
+311,"Boston Scientific Corp",BSX,885725
+312,"Beam Inc.",FO,789073
+313,"First American Corp",FAF,36047
+314,"Virgin Media, Inc.",VMED,1270400
+315,Owens-Illinois,OI,812074
+317,Sherwin-Williams,SHW,89800
+319,Calpine,CPN,916457
+320,NiSource,NI,1111711
+321,"Campbell Soup",CPB,16732
+322,KeyCorp,KEY,91576
+323,"Ashland, Inc.",ASH,1305014
+324,"MGM Mirage",MGM,789570
+325,"Chesapeake Energy",CHK,895126
+326,"Crown Holdings",CCK,1219601
+327,"eBay Inc.",EBAY,1065088
+328,"Pilgrim’s Pride Corporation",PPC,802481
+329,"Mohawk Industries",MHK,851968
+330,"Ameren Corporation",AEE,1002910
+331,"Community Health Systems",CYH,1108109
+332,"Dover Corporation",DOV,29905
+333,Gannett,GCI,39899
+334,CarMax,KMX,1170010
+335,"Smurfit-Stone Container Corporation",SSCC,919226
+336,VF,VFC,103379
+337,"Ball Corporation",BLL,9389
+338,"Eastman Chemical",EMN,915389
+339,Dillard's,DDS,28917
+340,"Clear Channel Communications, Inc.",CCU,1400891
+341,"KB Home",KBH,795266
+342,"CH Robinson Worldwide",CHRW,1043277
+343,"Western Refining",WNR,1339048
+344,"Enbridge Energy Partners",EEP,880285
+346,"Reliance Steel & Aluminum Co.",RS,861884
+347,PPL,PPL,922224
+348,"Winn-Dixie Stores",WINN,107681
+349,GameStop,GME,1326380
+350,"Estee Lauder",EL,1001250
+351,Synnex,SNX,1177394
+352,"AK Steel Holding",AKS,918160
+354,"Yahoo! Inc.",YHOO,1011006
+356,Federal-Mogul,FDML,34879
+357,MeadWestvaco,MWV,1159297
+358,"Great Atlantic & Pacific Tea",GAP,43300
+359,"Family Dollar Stores",FDO,34408
+360,"AGCO CORPORATION",AG,880266
+361,"Owens & Minor",OMI,75252
+362,"Energy Transfer Equity, L.P.",ETE,1276187
+363,"McGraw-Hill Companies Inc",MHP,64040
+364,Autoliv,ALV,1034670
+365,"Global Partners",GLP,1323468
+366,"Quest Diagnostics",DGX,1022079
+367,"CMS Energy",CMS,811156
+368,Celanese,CE,1306830
+369,"Bed Bath & Beyond Inc.",BBBY,886158
+370,"Whole Foods Market",WFMI,865436
+371,InterActiveCorp,IACI,891103
+372,"Ryder System",R,85961
+373,"Black & Decker",BDK,12355
+374,"The Interpublic Group of Companies, Inc.",IPG,51644
+375,"Cablevision Systems",CVC,1053112
+376,"Goodrich Corporation",GR,42542
+378,"WW Grainger",GWW,277135
+379,"Newell Rubbermaid",NWL,814453
+380,"Group 1 Automotive, Inc",GPI,1031203
+381,"Becton Dickinson",BDX,10795
+382,Embarq,EQ,1350031
+383,"Avery Dennison",AVY,8818
+384,"Oshkosh Corporation",OSK,775158
+385,"Performance Food Group",PFGC,908254
+387,Omnicare,OCR,353230
+388,ProLogis,PLD,899881
+389,Safeco,SAF,86104
+390,"Franklin Resources",BEN,38777
+391,"Hormel Foods",HRL,48465
+392,NCR,NCR,70866
+393,"Molson Coors Brewing Company",TAP,24545
+394,"Tenneco Inc.",TEN,1024725
+395,AutoZone,AZO,866787
+396,"TravelCenters of America",TA,1378453
+397,"Starwood Hotels & Resorts Worldwide, Inc",HOT,316206
+398,Harley-Davidson,HOG,793952
+400,"Pitney-Bowes, Inc.",PBI,78814
+401,"Allied Waste Industries",AW,848865
+402,"Stryker Corporation",SYK,310764
+403,"The Charles Schwab Corporation",SCHW,316709
+404,"NRG Energy",NRG,1013871
+405,"CB Richard Ellis Group, Inc.",CBG,1138118
+406,Pantry,PTRY,915862
+407,"Advanced Micro Devices",AMD,2488
+408,"Emcor Group",EME,105634
+409,"Wesco International",WCC,929008
+410,"Charter Communications",CHTR,1091667
+411,"Henry Schein",HSIC,1000228
+412,"Avis Budget Group",CAR,723612
+413,"Ross Stores",ROST,745732
+414,"Mattel, Inc.",MAT,63276
+416,"Darden Restaurants",DRI,940944
+417,"Atmos Energy",ATO,731802
+418,"Corning Incorporated",GLW,24741
+419,"Anixter International",AXE,52795
+420,"Northeast Utilities",NU,72741
+422,"Asbury Automotive Group, Inc.",ABG,1144980
+423,Mosaic,MOS,1285785
+424,"Affiliated Computer Services",ACS,2135
+425,"Brunswick Corporation",BC,14930
+427,"The Shaw Group Inc",SGR,914024
+428,"Micron Technology",MU,723125
+429,"Kelly Services",KELYA,55135
+430,Unisys,UIS,746838
+431,"Newmont Mining Corporation",NEM,1164727
+432,"Owens Corning",OC,1370946
+433,"Peabody Energy",BTU,1064728
+434,"WR Berkley",WRB,11544
+435,Blockbuster,BBI,1085734
+436,"Fidelity National Financial, Inc.",FNF,1331875
+437,"XTO Energy Inc.",XTO,868809
+438,"UGI Corporation",UGI,884614
+439,"Ecolab Inc.",ECL,31462
+440,"Western Digital Corporation",WDC,106040
+441,"Host Hotels & Resorts",HST,1070750
+442,"Allegheny Technologies",ATI,1018963
+443,"Foot Locker",FL,850209
+444,"Agilent Technologies Inc.",A,1090872
+446,"Precision Castparts",PCP,79958
+448,"Barnes & Noble",BKS,890491
+449,"Northern Trust Corporation",NTRS,73124
+450,"Wm. Wrigley Jr. Company",WWY,108601
+451,"URS Corporation",URS,102379
+452,"Rockwell Automation",ROK,1024478
+453,BorgWarner,BWA,908255
+455,"Longs Drug Stores",LDG,764762
+456,DaVita,DVA,927066
+458,"Leggett & Platt Inc",LEG,58492
+459,Timken,TKR,98362
+460,"Expeditors International of Washington",EXPD,746515
+461,"Constellation Brands, Inc.",STZ,16918
+462,USG,USG,757011
+463,Symantec,SYMC,849399
+464,"Frontier Oil Corporation",FTO,110430
+465,"Energy East",EAS,1046861
+466,NVR,NVR,906163
+468,SPX,SPW,88205
+470,"Fiserv, Inc.",FISV,798354
+471,"Sovereign Bancorp",SOV,811830
+472,"Lexmark International",LXK,1001288
+473,Hershey,HSY,47111
+475,"The Western Union Company",WU,1365135
+476,"The Clorox Company",CLX,21076
+477,"BlackRock, Inc.",BLK,1364742
+478,"Advance Auto Parts",AAP,1158449
+479,"Insight Enterprises",NSIT,932696
+480,"Telephone & Data Systems",TDS,1051512
+481,"Liz Claiborne",LIZ,352363
+483,"Fidelity National Information Services Inc.",FIS,1136893
+484,"BJ Services",BJS,864328
+485,"Hovnanian Enterprises",HOV,357294
+486,"HollyFrontier Corporation",HOC,48039
+487,"Universal Health Services",UHS,352915
+488,"El Paso",EP,1066107
+489,"Spectra Energy Corp.",SE,1373835
+491,PetSmart,PETM,863157
+492,"Cameron International",CAM,941548
+493,"Chiquita Brands International, Inc.",CQB,101063
+494,"Jarden Corporation",JAH,895655
+495,"Big Lots",BIG,768835
+496,"Sealed Air",SEE,1012100
+497,"Toll Brothers",TOL,794170
+498,"United Stationers",USTR,355999
+499,"Robert Half International",RHI,315213
+500,"FMC Technologies, Inc.",FTI,1135152
+501,"Perini Corporation",PCR,77543
+502,Scana,SCG,754737
+503,Comerica,CMA,28412
+504,"General Cable",BGC,886035
+505,Conseco,CNO,1224608
+507,Lubrizol,LZ,60751
+508,"Stanley Works",SWK,93556
+509,"Health Management Associates",HMA,792985
+510,PepsiAmericas,PAS,1084230
+511,"M&T Bank Corporation",MTB,36270
+512,Hanesbrands,HBI,1359841
+513,"Synovus Financial Corp",SNV,18349
+514,"International Assets Holding",IAAC,913760
+516,"Rockwell Collins",COL,1137411
+517,"American Financial Group",AFG,1042046
+518,Con-way,CNW,23675
+519,"Steel Dynamics",STLD,1022671
+520,"Kindred Healthcare",KND,1060009
+521,"Brinker International",EAT,703351
+523,"MDU Resources Group",MDU,67716
+525,"Wyndham Worldwide Corporation",WYN,1361658
+526,"Legg Mason, Inc.",LM,704051
+528,"Jones Apparel Group",JNY,874016
+529,Brightpoint,CELL,918946
+530,"Polo Ralph Lauren",RL,1037038
+531,"Level 3 Communications, Inc.",LVLT,794323
+532,"Cincinnati Financial",CINF,20286
+533,RadioShack,RSH,96289
+534,"Harris Corporation",HRS,202058
+535,"Dollar Tree",DLTR,935703
+536,"Wisconsin Energy",WEC,783325
+537,AECOM,ACM,868857
+538,"Gilead Sciences, Inc",GILD,882095
+539,"Core-Mark Holding",CORE,1318084
+540,"EOG Resources",EOG,821189
+541,"Live Nation",LYV,1335258
+542,"Graham Holdings Company",WPO,104889
+543,"Ikon Office Solutions",IKN,3370
+544,"NYSE Euronext",NYX,1326579
+545,Nvidia,NVDA,1045810
+546,"H&R Block",HRB,12659
+547,"Old Republic International",ORI,74260
+548,Harsco,HSC,45876
+549,"Laboratory Corp of America",LH,920148
+550,"MasterCard Incorporated",MA,1141391
+551,"Borders Group, Inc.",BGP,940510
+552,"Sonoco Products",SON,91767
+553,Manitowoc,MTW,61986
+555,CA,CA,356028
+556,Allergan,AGN,850693
+557,"AMERIGROUP Corporation",AGP,1064863
+558,Williams-Sonoma,WSM,719955
+559,"Chemtura Corporation",CEM,1091862
+560,Temple-Inland,TIN,731939
+561,"Nalco Holding Company",NLC,1298341
+562,"Zimmer Holdings",ZMH,1136869
+563,SanDisk,SNDK,1000180
+564,"Dick's Sporting Goods",DKS,1089063
+565,AbitibiBowater,ABH,1393066
+567,"Crosstex Energy",XTXI,1209821
+569,Hasbro,HAS,46080
+570,"BlueLinx Holdings",BXC,1301787
+571,"Trinity Industries, Inc.",TRN,99780
+573,"Banco Popular",BPOP,763901
+574,Genzyme,GENZ,732485
+575,"OGE Energy",OGE,1021635
+576,"St Jude Medical",STJ,203077
+577,Broadcom,BRCM,1054374
+578,Flowserve,FLS,30625
+579,"Consol Energy",CNX,1070412
+580,"Abercrombie & Fitch",ANF,1018840
+581,"Lennox International",LII,1069202
+582,"United Rentals",URI,1067701
+583,Cintas,CTAS,723254
+584,"LandAmerica Financial Group",LFG,877355
+587,"Simon Property Group",SPG,1063761
+588,Bemis,BMS,11199
+590,"Ruddick Corporation",RDK,85704
+591,"Casey's General Stores",CASY,726958
+592,"Zions Bancorporation",ZION,109380
+593,"Armstrong World Industries, Inc.",AWI,7431
+594,"NACCO Industries",NC,789933
+595,"Sierra Pacific Resources",SRP,741508
+596,Solutia,SOA,1043382
+597,"Alliant Techsystems Inc.",ATK,866121
+598,"Harman International Industries, Incorporated",HAR,800459
+599,"TECO Energy",TE,350563
+600,"Pinnacle West Capital",PNW,764622
+602,"Alaska Air Group",ALK,766421
+603,"Cytec Industries Inc.",CYT,912513
+604,"JB Hunt Transport Services",JBHT,728535
+605,"Torchmark Corporation",TMK,320335
+606,"Bon-Ton Stores",BONT,878079
+607,"BearingPoint, Inc.",BE,1113247
+608,"Forest Laboratories",FRX,38074
+610,"Alliant Energy",LNT,352541
+611,Hospira,HSP,1274057
+613,"Huntington Bancshares",HBAN,49196
+614,"Del Monte Foods Company",DLM,866873
+615,Dynegy,DYN,1379895
+616,Pentair,PNR,77360
+617,"Ingredion Incorporated",CPO,1046257
+618,"Warner Music Group",WMG,1319161
+619,SkyWest,SKYW,793733
+620,"Energizer Holdings",ENR,1096752
+621,"Rockwood Holdings, Inc.",ROC,1315695
+622,"RPM International",RPM,110621
+623,"Vulcan Materials",VMC,1396009
+624,Greif,GEF,43920
+625,"Lithia Motors",LAD,1023128
+627,"NII HOLDINGS, INC.",NIHD,1037016
+628,Saks,SKS,812900
+629,"Vornado Realty Trust",VNO,899689
+630,"Noble Energy, Inc.",NBL,72207
+631,"Great Plains Energy",GXP,1143068
+632,Molex,MOLX,67472
+633,"General Growth Properties",GGP,895648
+634,NSTAR,NST,1035675
+635,"Windstream Corporation",WIN,1282266
+636,Pactiv,PTV,1089976
+637,Valspar,VAL,102741
+638,"American Axle & Manufacturing",AXL,1062231
+639,Brink's,BCO,78890
+640,"The New York Times Company",NYT,71691
+641,"Puget Energy",PSD,1085392
+642,"Seaboard Corporation",SEB,88121
+643,Airgas,ARG,804212
+644,"Westlake Chemical",WLK,1262823
+645,Idearc,IAR,NULL
+646,"Commerce Bancorp",CBH,715096
+647,"Mercury General",MCY,64996
+648,"Georgia Gulf Corporation",GGC,805264
+649,Nicor,GAS,72020
+650,"Republic Services",RSG,1060391
+651,"Biogen Idec",BIIB,875045
+652,Olin,OLN,74303
+653,"First Horizon National Corp",FHN,36966
+654,"Adobe Systems",ADBE,796343
+659,Unitrin,UTR,860748
+660,"W R GRACE & CO",GRA,1045309
+661,"Raymond James Financial",RJF,720005
+662,Steelcase,SCS,1050825
+663,"Electronic Arts",ERTS,712515
+664,"Standard Pacific Corp.",SPF,878560
+665,"American National Insurance Company",ANAT,904163
+666,"American Eagle Outfitters, Inc.",AEO,919012
+668,"Protective Life Corp.",PL,355429
+669,"The Blackstone Group L.P.",BX,1393818
+670,"Retail Ventures, Inc.",RVI,874444
+671,"Collective Brands",PSS,1060232
+672,"Universal American",UAM,709878
+673,"Ryland Group",RYL,85974
+674,"New Jersey Resources",NJR,356309
+675,"Charming Shoppes",CHRS,19353
+677,"Cooper Tire & Rubber",CTB,24491
+678,"Superior Essex",SPSX,1271193
+679,Tiffany,TIF,98246
+680,"Hewitt Associates",HEW,1168478
+681,"Icahn Enterprises L.P.",IEP,813762
+682,"Worthington Industries",WOR,108516
+683,"CVR Energy, Inc.",CVI,1376139
+684,"Las Vegas Sands Corp.",LVS,1300514
+685,"Exide Technologies",XIDE,813781
+686,Universal,UVV,102037
+687,"MDC Holdings",MDC,773141
+688,Centene,CNC,1071739
+689,"Silgan Holdings",SLGN,849869
+690,PHH,PHH,77776
+691,"Interstate Bakeries",IBCIQ,51666
+692,"McCormick & Company, Incorporated",MKC,63754
+693,"Benchmark Electronics",BHE,863436
+694,Snap-On,SNA,91440
+695,"Rent A Center",RCII,933036
+696,"Carlisle Companies Inc. (U.S.A.)",CSL,790051
+697,"Jack in the Box",JBX,807882
+698,"Vishay Intertechnology, Inc.",VSH,103730
+699,"Scotts Miracle-Gro",SMG,825542
+700,Teleflex,TFX,96943
+701,"Thor Industries",THO,730263
+702,"UAP Holding",UAPH,1279529
+704,"Ingles Markets",IMKTA,50493
+705,Amphenol,APH,820313
+706,Convergys,CVG,1062047
+707,"ABM Industries",ABM,771497
+708,"JetBlue Airways Corporation",JBLU,1158463
+709,"Juniper Networks",JNPR,1043604
+710,"DRS Technologies",DRS,28630
+711,Mirant,MIR,1010775
+712,NetApp,NTAP,1002047
+713,"Patterson Companies, Inc.",PDCO,891024
+715,"Hanover Insurance Group",THG,944695
+716,Systemax,SYX,945114
+717,"Beckman Coulter",BEC,840467
+718,"Pride International",PDE,833081
+719,"CF Industries Holdings",CF,1324404
+720,"United Natural Foods",UNFI,1020859
+721,"Analog Devices",ADI,6281
+722,"Amkor Technology",AMKR,1047127
+723,"Granite Construction",GVA,861459
+724,Kla-Tencor,KLAC,319201
+725,"Iron Mountain Incorporated",IRM,1020569
+726,Questar,STR,751652
+727,Intuit,INTU,896878
+728,"Apollo Group, Inc.",APOL,929887
+730,"StanCorp Financial",SFG,1079577
+731,"Tractor Supply",TSCO,916365
+732,"Mueller Industries",MLI,89439
+733,"LifePoint Hospitals",LPNT,1074772
+734,"Wynn Resorts",WYNN,1174922
+735,"RH Donnelley",RHD,30419
+736,"Coach, Inc.",COH,1116132
+738,"Quanta Services",PWR,1050915
+739,Mylan,MYL,69499
+740,Expedia,EXPE,1324424
+741,"Regal Entertainment Group",RGC,1168696
+742,"CenturyLink, Inc.",CTL,18926
+743,"Spectrum Brands",SPC,1028985
+744,"Jones Lang LaSalle",JLL,1037976
+745,"WGL Holdings",WGL,1103601
+746,PolyOne,POL,1122976
+747,"Adams Resources & Energy",AE,2178
+748,"FMC Corporation",FMC,37785
+749,"TD Ameritrade Holding Corporation",AMTD,1173431
+750,"Regis Corporation",RGS,716643
+751,"International Game Technology",IGT,353944
+752,"Crane Co.",CR,25445
+753,"Southern Union Company",SUG,203248
+754,"Cabot Corporation",CBT,16040
+755,"Perot Systems",PER,894253
+756,LSI,LSI,703360
+757,Quiksilver,ZQK,805305
+759,"The Phoenix Companies, Inc",PNX,1129633
+760,"Schnitzer Steel Industries",SCHN,912603
+761,HNI,HNI,48287
+762,"Lam Research",LRCX,707549
+763,"Barr Pharmaceuticals",BRL,10081
+764,"Joy Global",JOYG,801898
+765,"Exterran Holdings",EXH,1389050
+766,"Susser Holdings",SUSS,1361709
+767,"Hawaiian Electric Industries, Inc.",HE,354707
+768,"HUBBELL INCORPORATED",HUBB,48898
+769,"Acuity Brands",AYI,1144215
+770,"O'Reilly Automotive",ORLY,898173
+771,"EW Scripps",SSP,832428
+772,"Sally Beauty Holdings",SBH,1368458
+773,"Universal Forest Products",UFPI,912767
+775,"Cracker Barrel Old Country Store, Inc.",CBRL,1067294
+776,"Graphic Packaging International, Inc.",GPK,886239
+777,Spansion,SPSN,1322705
+778,"Watson Pharmaceuticals",WPI,884629
+779,"AGL Resources",ATG,1004155
+781,"Molina Healthcare",MOH,1179929
+782,"Landstar System, Inc.",LSTR,853816
+783,Markel,MKL,1096343
+784,"Wendy's International",WEN,30697
+785,UTStarcom,UTSI,1030471
+787,Zale,ZLC,109156
+788,"Penn National Gaming",PENN,921738
+789,"The NASDAQ OMX Group, Inc",NDAQ,1120193
+790,"Phillips-Van Heusen",PVH,78239
+791,"PNM Resources",PNM,1108426
+792,"Annaly Capital Management",NLY,1043219
+793,"Arch Coal",ACI,1037676
+794,"Massey Energy",MEE,37748
+795,Kennametal,KMT,55242
+796,"AnnTaylor Stores",ANN,874214
+797,"HCC Insurance Holdings",HCC,888919
+798,Andersons,ANDE,821026
+799,HealthSouth,HLS,785161
+800,"Spartan Stores Inc.",SPTN,877422
+801,"Terra Industries",TRA,722079
+802,"Brown Shoe",BWS,14707
+804,"Volt Information Sciences",VOL,103872
+805,"Cabela's Corporation",CAB,1267130
+806,"Meritage Homes",MTH,833079
+808,"General Motors Financial Company, Inc.",ACF,804269
+809,Albemarle,ALB,915913
+811,"Service Corp International",SCI,89089
+812,"Weis Markets",WMK,105418
+813,"Packaging Corp of America",PKG,75677
+814,Rock-Tenn,RKT,230498
+815,"Building Materials Holding",BLG,NULL
+816,"The McClatchy Company",MNI,1056087
+817,"AO Smith",AOS,91142
+818,"Airtran Holdings",AAI,948846
+819,"DST Systems",DST,714603
+820,"Alliance Data Systems",ADS,1101215
+821,"Citizens Communications",FTR,20520
+822,Vectren,VVC,1096385
+823,"Lincoln Electric Holdings",LECO,59527
+824,"International Flavors & Fragrances",IFF,51253
+825,"Cliffs Natural Resources Inc.",CLF,764065
+826,Brown-Forman,BFB,14693
+827,Moody's,MCO,1059556
+829,Pall,PLL,75829
+830,"Valassis Communications",VCI,883293
+831,"MetroPCS Communications",PCS,NULL
+832,"Burger King Holdings Inc.",BKC,1352801
+833,"Ralcorp Holdings",RAH,1029506
+834,"T. Rowe Price Group, Inc.",TROW,1113169
+835,"Metal Management",MM,795665
+836,"E*TRADE Financial Corporation",ETFC,1015780
+837,"Church & Dwight",CHD,313927
+838,"Martin Marietta Materials",MLM,916076
+839,Ferro,FOE,35214
+840,"CR Bard",BCR,9892
+843,"IMS Health",RX,1058083
+844,Scholastic,SCHL,866729
+845,Autodesk,ADSK,769397
+847,"Thomas & Betts",TNB,97854
+849,"Pep Boys-Manny Moe & Jack",PBY,77449
+850,"Children's Place Retail Stores",PLCE,1041859
+851,"Briggs & Stratton Corp",BGG,14195
+852,"Magellan Health Services",MGLN,19411
+853,Nelnet,NNI,1258602
+854,"Southwest Gas",SWX,92416
+855,"THE J. M. SMUCKER COMPANY",SJM,91419
+856,"Equity Residential",EQR,906107
+857,"Furniture Brands International",FBN,50957
+858,"Ensco plc",ESV,314808
+859,Ametek,AME,1037868
+860,"King Pharmaceuticals",KG,1047699
+861,Hercules,HPC,46989
+862,"Cognizant Technology Solutions",CTSH,1058290
+863,"Hudson City Bancorp",HCBK,921847
+864,Applera,ABI,77551
+866,"Grant Prideco",GRP,1097313
+867,"Patterson-UTI Energy, Inc.",PTEN,889900
+868,"Men's Wearhouse",MW,884217
+870,"Stewart Information Services",STC,94344
+871,"Roper Industries",ROP,882835
+873,"Rowan Companies, Inc.",RDC,85408
+874,"National Fuel Gas",NFG,70145
+875,"Oil States International, Inc.",OIS,1121484
+876,Amerco,UHAL,4457
+877,"DynCorp International",DCP,1338916
+878,"Pioneer Natural Resources Company",PXD,1038357
+879,"Werner Enterprises",WERN,793074
+880,Imation,IMN,1014111
+881,"Fastenal Company",FAST,815556
+882,"Hayes Lemmerz",HAYZ,1237941
+883,Quanex,NX,276889
+884,Cenveo,CVO,920321
+885,Sigma-Aldrich,SIAL,90185
+886,"Flowers Foods",FLO,1128928
+887,Belden,BDC,913142
+888,"Source Interlink Companies Inc.",SORC,943605
+889,"Rush Enterprises",RUSHB,1012019
+890,"IDT Corporation",IDT,1005731
+891,"Warnaco Group",WRC,801351
+892,"Hill-Rom Holdings",HRC,47518
+893,"Interactive Brokers Group",IBKR,1381197
+894,Spherion,SFN,914536
+895,"The Laclede Group, Inc.",LG,1126956
+896,"IndyMac Bancorp",IDMC,NULL
+897,NBTY,NTY,70793
+898,"Applied Industrial Technologies",AIT,109563
+899,"Dentsply International",XRAY,818479
+900,"Fleetwood Enterprises",FLE,314132
+901,"Boyd Gaming Corporation",BYD,906553
+902,"Alliance One International",AOI,939930
+903,"Ferrellgas Partners, L.P.",FGP,922358
+904,ScanSource,SCSC,918965
+905,"Commerce Group",CGI,811612
+906,"Tupperware Brands",TUP,1008654
+907,Sauer-Danfoss,SHS,865754
+908,"Pacer International",PACR,1091735
+909,"Carpenter Technology",CRS,17843
+910,"ACCO Brands",ABD,712034
+911,"CACI International Inc",CAI,16058
+912,CommScope,CTV,1035884
+913,"National Semiconductor Corporation",NSM,70530
+914,Pool,POOL,945841
+915,USEC,USU,1065059
+916,"MEMC Electronic Materials",WFR,945436
+917,"Herman Miller",MLHR,66382
+918,Donaldson,DCI,29644
+919,"Tellabs Inc.",TLAB,317771
+920,"Sierra Health Services",SIE,754009
+921,"CSK Auto",CAO,1051848
+922,"UST Inc.",UST,811669
+923,AptarGroup,ATR,896622
+924,Paychex,PAYX,723531
+925,"Jo Ann Stores",JAS,34151
+926,"Alpha Natural Resources, Inc.",ANR,1310243
+927,Toro,TTC,737758
+928,"Gardner Denver",GDI,916459
+929,HealthExtras,HLEX,NULL
+931,"Mueller Water Products, Inc.",MWAB,NULL
+932,"Selective Insurance Group",SIGI,230557
+934,"Equifax Inc.",EFX,33185
+935,Xilinx,XLNX,743988
+936,"Brookdale Senior Living",BKD,1332349
+937,"Arkansas Best",ABFS,894405
+938,"Baldor Electric",BEZ,9342
+939,"Public Storage",PSA,1393311
+941,Regal-Beloit,RBC,82811
+942,"Century Aluminum",CENX,949157
+943,"Career Education",CECO,1046568
+944,"Mettler-Toledo International",MTD,1037646
+945,"Newfield Exploration Company",NFX,912750
+946,PerkinElmer,PKI,31791
+947,"A Schulman",SHLM,87565
+948,"PC Connection",PCCC,1050377
+949,"Alexander & Baldwin Inc.",ALEX,1545654
+950,Fred's,FRED,724571
+951,"Polaris Industries",PII,931015
+952,"Varian Medical Systems",VAR,203527
+953,Agilysys,AGYS,78749
+954,"Apartment Investment and Management Company",AIV,922864
+955,Cephalon,CEPH,873364
+956,Watsco,WSO,105016
+957,"RSC Holdings",RRR,1389305
+958,"Helix Energy Solutions Group",HLX,866829
+959,"Dollar Thrifty Automotive",DTG,1049108
+960,"American Greetings",AM,5133
+963,"Modine Manufacturing",MOD,67347
+964,"CME Group",CME,1156375
+965,Guess,GES,912463
+966,"Oceaneering International",OII,73756
+967,"Portland General Electric",POR,784977
+968,"Kansas City Southern",KSU,54480
+969,"Colonial Bancgroup",CNB,92339
+970,"PSS World Medical",PSSI,920527
+971,La-Z-Boy,LZB,57131
+973,Louisiana-Pacific,LPX,60519
+974,"Westar Energy",WR,54507
+976,"Chico's FAS",CHS,897429
+977,"Piedmont Natural Gas",PNY,78460
+978,Sealy,ZZ,748015
+979,"MGIC Investment Corporation",MTG,876437
+980,"MSC Industrial Direct",MSM,1003078
+982,"ExpressJet Holdings",XJT,1144331
+983,"Cinemark Holdings",CNK,1385280
+984,"New York Community Bancorp",NYB,910073
+985,"B/E Aerospace, Inc.",BEAV,861361
+986,"Arthur J Gallagher",AJG,354190
+987,"Plum Creek Timber",PCL,849213
+988,"Central Garden & Pet",CENT,887733
+989,"Fairchild Semiconductor Intl",FCS,1036960
+990,"Dresser-Rand Group",DRC,1316656
+991,"Key Energy Services",KEG,318996
+992,"The Dun & Bradstreet Corporation",DNB,1115222
+993,"Sun Healthcare Group",SUNH,904978
+994,"Hub Group",HUBG,940942
+995,Potlatch,PCH,79716
+996,"Complete Production Services",CPX,1340041
+997,"Bob Evans Farms",BOBE,33769
+998,"Meredith Corporation",MDP,65011
+999,"Beacon Roofing Supply",BECN,1124941
+1000,Atmel,ATML,872448
+1001,"Calumet Specialty Products",CLMT,1340122
+1002,"Apria Healthcare Group",AHG,882289
+1003,Covance,CVD,1023131
+1004,"Leap Wireless International",LEAP,1065049
+1005,"Helmerich & Payne, Inc.",HP,46765
+33292,"Parker Drilling Company",NULL,NULL
+34883,"Deutsche Bank",NULL,NULL
+38095,"Waters Corporation",WAT,1000697
+19192,"Dow Chemical",DOW,29915
+39429,"Advanced Medical Technology Assn",NULL,NULL
+39479,"Wyeth, LLC",WYE,5187
+39605,"Blue Cross/Blue Shield of Massachusetts",NULL,NULL
+39611,"Medtronic Inc",MDT,64670
+39612,"Pfizer -Warner Lambert",NULL,NULL
+39631,"Stowers Institute",NULL,NULL
+39705,"EBI Inc",NULL,NULL
+39707,Orthologic,NULL,NULL
+39708,"Smith & Nephew",NULL,NULL
+39709,"Thoratec Corp",NULL,NULL
+39711,"Lincare Holdings",NULL,NULL
+39713,"Kinetic Concepts",NULL,NULL
+39716,"Entertainment Software Assn",NULL,NULL
+39718,"Roche Holdings, Inc.",NULL,NULL
+39720,"PayFlex Systems USA",NULL,NULL
+39723,"Olympus Corp",NULL,NULL
+39724,"Aware Technologies",NULL,NULL
+39728,"Hyper Ox",NULL,NULL
+39808,"TargetSmart Communications",NULL,NULL
+39810,"American Medical Security",NULL,NULL
+31285,"Quest Diagnostics Incorporated Political Action Committee",DGX,1022079
+39607,"Eli Lilly & Co",LLY,59478
+39862,"Gambro AB",NULL,NULL
+39863,"Navigant Biotechnologies",NULL,NULL
+40001,"Academy of Molecular Imaging",NULL,NULL
+40006,"Nanoink Inc",NULL,NULL
+40024,Sanofi-Aventis,NULL,NULL
+40025,"Alexion Pharmaceuticals",NULL,NULL
+40167,"Applera Corporation",NULL,NULL
+40238,"McKesson Corp",NULL,NULL
+39158,"Health Net Inc",HNT,916085
+40841,Consultrans,NULL,NULL
+39762,"Merck & Co. Inc.",MRK,64978
+41789,"Exterran Partners, LP",NULL,NULL
+41790,"Butler Manufacturing Company",NULL,NULL
+41791,"Universal Compression Partners - UCO GP LLC",NULL,NULL
+41792,"Exterran GP LLC",NULL,NULL
+18116,Cvs/Caremark,CVS,64803
+39530,"Genzyme Corp",GENZ,732485
+44751,"CardioComm. Solutions Inc.",NULL,NULL
+44856,InPhonic,NULL,NULL
+38942,AdvaMed,NULL,NULL
+45216,"Quaker Fabric Corp.",NULL,NULL
+45130,"Entertainment Software Association",NULL,NULL
+48566,DuPont,NULL,NULL
+32235,"3M Company",MMM,66740
+48383,"Moog Inc.",MOG-A,67887
+58460,"QC Holdings",QCCO,1289505
+58454,"Cash America",CSH,807884
+58459,"Advance America",AEA,1299704
+58452,EZCORP,EZPW,876523
+58456,"Dollar Financial Group",DLLR,1271625
+58698,"First Cash Financial Services, Inc.",FCFS,840489
+58834,"Allied Motion Technologies",AMOT,46129
+48423,"Seneca Foods Corporation",SENEA,88948
+35930,"Jefferies LLC",NULL,NULL
+59453,TIAA-CREF,NULL,NULL
+59458,"Discover Financial Services",DFS,1393612
+59460,"Reinsurance Group of America",RGA,898174
+59461,"WellCare Health Plans",WCG,1279363
+59462,"Thrivent Financial for Lutherans",NULL,NULL
+59463,"CC Media Holdings",NULL,NULL
+59464,"SunGard Data Systems",NULL,NULL
+59465,"Domtar Corp.",NULL,NULL
+59466,"Tutor Perini Corporation",TPC,77543
+59468,"NuStar Energy",NSH,1223786
+59469,"Jones Financial",NULL,NULL
+59470,"NV Energy",NVE,741508
+59471,"Wendy's/Arby's Group, Inc.",WEN,30697
+59472,"Discovery Communications",NULL,NULL
+59473,"Hyatt Hotels Corporation",H,1468174
+59474,"Life Technologies",LIFE,1073431
+59475,"Ambac Financial Group",ABK,874501
+59477,"Bell Microproducts",NULL,NULL
+59478,HSN,HSNI,1434729
+59479,"Diebold, Incorporated",DBD,28823
+59480,HealthSpring,HS,1339553
+59481,"Bucyrus International",BUCY,740761
+59482,"Buildings Materials Corp of America",NULL,NULL
+59483,SuperMedia,SPMD,1367396
+59484,"Lender Processing Services",LPS,1429775
+59485,"Tetra Tech, Inc.",TTEK,831641
+59486,Aeropostale,ARO,1168213
+59487,"Dex One",DEXO,30419
+59488,"United Refining",NULL,NULL
+59489,"Southwestern Energy",SWN,7332
+59490,Perrigo,PRGO,820096
+59491,"Momentive Performance Materials",NULL,NULL
+59492,LKQ,LKQX,1065696
+59493,"Patriot Coal",PCX,1376812
+59494,"Affinia Group Intermediate Holdings",NULL,NULL
+59495,"ManTech International",MANT,892537
+59496,"Triple-S Management",GTS,1171662
+59497,"Boise, Inc.",BZ,1391390
+59498,Enersys,ENS,1289308
+59499,"Brocade Communications Systems",BRCD,1009626
+59500,"Urban Outfitters",URBN,912615
+59501,"BMC Software",BMC,835729
+59502,"Psychiatric Solutions",PSYS,829608
+59503,"Total System Services",TSS,721683
+59504,PharMerica,PMC,1388195
+59505,"Impac Mortgage Holdings",IMH,1000298
+59506,"True Value",NULL,NULL
+59507,"Curtiss-Wright Corporation",CW,26324
+59508,"Sanderson Farms",SAFM,812128
+59509,"Valmont Industries",VMI,102729
+59510,"Bio-Rad Laboratories",BIO,12208
+59511,"Buckeye GP Holdings",BGH,1359055
+59512,"On Semiconductor",ONNN,1097864
+59513,Aaron's,AAN,706688
+59514,"AMERICAN TOWER CORP",AMT,1053507
+59515,"Symetra Financial",SYA,1403385
+59516,"Seacor Holdings, Inc.",CKH,859598
+59517,Invacare,IVC,742112
+59518,Itron,ITRI,780571
+59519,"Crown Castle International",CCI,1051470
+59520,"Towers Watson",TW,1103126
+59521,Cerner,CERN,804753
+59522,"Corrections Corp of America",CXW,1070985
+59523,Netflix,NFLX,1065280
+59524,"Catalent Pharma Solutions",NULL,NULL
+59525,Millipore,NULL,NULL
+59526,Administaff,ASF,1000753
+59527,"Heartland Payment Systems",HPY,1144354
+59528,"Amica Mutual Insurance",NULL,NULL
+59529,"Maxim Integrated Products",MXIM,743316
+59530,"Republic Airways Holdings",RJET,1159154
+59531,Hologic,HOLX,859737
+59532,EnergySolutions,ES,1393744
+59533,"MasTec, Inc.",MTZ,15615
+59534,Plexus,PLXS,785786
+59535,"Citrix Systems",CTXS,877890
+59536,"John Wiley & Sons",NULL,NULL
+59537,"Cheesecake Factory",CAKE,887596
+59538,"Global Payments Inc.",GPN,1123360
+59539,Carter's,CRI,1060822
+59540,DPL,DPL,787250
+59541,"PAETEC Holding Corp.",PAET,1372041
+59542,Res-Care,RSCR,776325
+59543,Genesco,GCO,18498
+59544,"Delphi Financial Group",DFG,859139
+59545,"Inergy Holdings",NRGP,1228068
+59546,"Scripps Networks Interactive",SNI,1430602
+59547,Fossil,FOSL,883569
+59548,"SRA International",SRX,906192
+66370,"Molycorp Minerals",MCP,1489137
+38391,"Kinder Morgan G.P., Inc.",KMP,888228
+345,"Targa Resources",NGLS,1379661
+457,"Graybar Electric",NULL,205402
+399,"Thrivent Financial for Lutherans",NULL,NULL
+656,"Unified Western Grocers",NULL,320431
+67336,"Union Drilling Inc",UDRL,1133260
+67561,"Janus Capital Group Inc.",JNS,1065865
+69360,"Diamond Offshore Drilling Inc",DO,949039
+67621,"CNA Financial Corporation",CNA,21175
+69499,"Titan International",TWI,899751
+69890,"China Unicom",CHU,1113866
+33672,"Lazard Ltd",LAZ,1311370
+70590,"Aéropostale Inc",ARO,1168213
+70588,"Vitamin Shoppe Industries",VSI,1360530
+70589,"New York & Company Inc",NWY,1211351
+72437,"Ironwood Pharmaceuticals",IRWD,1446847
+42722,"MB Financial",MBFI,1139812
+34861,"Tyco International Ltd.",TYC,833444
+37797,TIAA-CREF,NULL,NULL
+73668,"TreeHouse Foods",THS,1320695
+73696,"Asset Acceptance Capital Corporation",AACC,1264707
+73721,"Portfolio Recovery Associates",PRAA,1185348
+73736,"Asta Funding",ASFI,1001258
+37547,"Evercore Partners Inc",EVR,1360901
+36852,"Corrections Corporation of America",CXW,1070985
+76206,"Wisconsin Energy",WEC,783325
+76315,"US Energy",USEG,101594
+76695,"Jackson Hewitt Tax Service",JTX,1283552
+76951,"GAMCO Investors, Inc.",GBL,1060349
+79305,"Pozen Inc",POZN,1059790
+79845,"Loews Corporation",LTR,60086
+39634,"Reed Elsevier Group Plc",RUK,929869
+81345,"Globe Specialty Metals",GSM,1383571
+47164,"Yum Brands, Inc",YUM,1041061
+48320,"Gibraltar Steel Corporation",ROCK,912562
+39760,"Endo Pharmaceuticals Inc.",ENDP,1100962
+52212,"Rand Capital Corporation",RAND,81955
+82443,Minirad,BUF,1121225
+82434,"Evans Bank",EVBN,842518
+52083,"Taylor Devices",TAYD,96536
+82441,Servotronics,SVT,89140
+83075,"Liberty Global, Inc.",NULL,NULL
+83135,"Patriot Coal Corporation",PCX,1376812
+83484,"Deutsche Bank AG",NULL,NULL
+25822,McGraw-Hill,MHP,64040
+85442,"Silgan Holdings Inc.",SLGN,849869
+85849,"Williams Companies, Inc.",WMB,107263
+85951,Sotheby's,BID,823094
+77070,"First Niagara Financial Group",FNFG,1051741
+78783,"Brookfield Asset Management Inc",BAM,1001085
+80164,"Discovery Communications, Inc.",NULL,NULL
+87013,"General Growth Properties Inc.",GGP,895648
+87385,"CoreLogic, Inc.",FAF,36047
+87452,"Jacobs Engineering Group Inc.",JEC,52988
+23141,"DirecTV Group",DTV,1465112
+83055,"K12 Inc",LRN,1157408
+85093,"John Wiley & Sons, Inc.",NULL,NULL
+88415,"El Paso Corporation",EP,1066107
+88855,"Blue Coat",BCSI,1095600
+87754,"Syngenta AG",NULL,NULL
+90070,"SPDR Gold Trust",NULL,NULL
+90071,"ANADARKO PETROLEUM CORP",NULL,NULL
+81448,"Kingdom Holding Company",NULL,NULL
+90112,"Jindal Steel and Power Limited",NULL,NULL
+90296,"Equitable Group Inc.",ETC,33113
+90627,"Kinder Morgan Energy Partners, L.P.",KMP,888228
+90629,"Energy Transfer Partners, L.P.",ETP,1012569
+49237,"Enterprise Products Partners",EPE,1324592
+90705,"Kinder Morgan, Inc.",KMI,1506307
+90717,"Coventry Health Care Inc",CVH,1054833
+90796,"Capita Group plc",NULL,831001
+90964,"HCA HOLDINGS INC",HCA,860730
+90971,"TENGION INC",NULL,NULL
+90973,"Melco Crown Entertainment Limited",NULL,NULL
+91653,"World Energy Solutions, Inc.",XWES,1371781
+92558,"Westchester County Health Care Corporation",NULL,NULL
+92646,"Psychemedics Corporation",PMD,806517
+92764,"	Smart-Tek Solutions Inc",STTN,947011
+93387,"Glencore Plc",GLEN,890066
+93404,"Chemoil Energy Limited",NULL,NULL
+93817,"Mid-America Apartment Communities, Inc.",MAA,912595
+93969,"Clear Channel Outdoor Holdings, Inc.",CCO,1334978
+93976,"CC Media Holdings, Inc.",CCMO,1400891
+94088,"Laredo Petroleum",LPI,1528129
+94428,"Nasdaq Premium Income & Growth Fund Inc.",QQQX,1381186
+94429,"Chicago Board Options Exchange Holding, Inc",CBOE,1374310
+94880,"Equitable Life & Casualty",NULL,NULL
+94929,"Jordan Kuwait Bank",NULL,NULL
+94924,"Fresh Del Monte Produce Inc.",FDP,1047340
+95245,"Adams Respiratory Therapeutics",ARXT,1319439
+95374,"Lottomatica Group S.p.A.",LTTOY,NULL
+95486,Entercom,ETM,1067837
+33577,"Kohlberg Kravis Roberts",KKR,1404912
+95760,"Melvin Simon & Associates, Inc.",NULL,NULL
+95793,"Green Mountain Coffee Roasters Inc.",GMCR,909954
+95843,"AllianceBernstein Holding L.P.",AB,825313
+95868,"AXA S.A.",CS,NULL
+96005,"Dune Energy, Inc.",NULL,NULL
+59222,"Cabot Oil & Gas Corporation",COG,858470
+79767,"Natural Resource Partners LP",NRP,1171486
+42740,"GATX Corporation",GMT,40211
+45328,"The Southern Company",SO,92122
+98244,"Pacific Century Premium Developments",NULL,NULL
+98248,"PCCW Limited",0008.HK,NULL
+98258,"Tottenham Hotspur PLC",NULL,NULL
+98260,Petrohawk,HK,1282648
+98283,"Roche Holding AG",ROG.VX,NULL
+59240,"Talisman Energy",TLM,NULL
+89798,CenturyLink,CTL,18926
+98766,"VRX Worldwide Inc",NULL,NULL
+98771,"Virtutone Networks Inc",NULL,NULL
+98859,"Alimentation Couche-Tard Inc.",ATD/B,NULL
+98888,"Blueknight Energy Partners, L.P.",BKEP,1392091
+98953,"PPR SA",NULL,NULL
+43886,"Clean Energy Fuels Corporation",CLNE,1368265
+99197,"Enterra Corporation",NULL,NULL
+99202,"Orascom Construction Industries",NULL,NULL
+38480,"First Republic Bank",FRC,1132979
+51357,"MOD-PAC Corp.",MPAC,1191857
+52327,"Amoco Corporation",AN,350698
+86930,"AB InBev",BUD,1140467
+99744,"Reckitt Benckiser Group plc",RB,NULL
+99754,"Benckiser N.V.",NULL,NULL
+57911,"Ecology & Environment, Inc.",EEI,809933
+37620,Schlumberger,SLB,87347
+59262,"Talisman Energy USA Inc.",TLM,NULL
+100351,"Prudential Financial Inc.",PRU,1137774
+59254,"Range Resources Corporation",RRC,315852
+100594,"Eaton Vance Corp.",NULL,NULL
+100595,"Arris Group",NULL,NULL
+100596,"Atwood Oceanics",NULL,NULL
+100215,"Cimarex Energy Co",XEC,1168054
+82845,"Devry, Inc.",DV,730464
+79894,"Federated Investors, Inc",FII,1056288
+85262,"InterDigital Inc.",IDCC,1405495
+59260,"St. Mary Land & Exploration Company",SM,893538
+100599,"Signet Jewelers",NULL,NULL
+100601,"Veeco Instruments Inc.",NULL,NULL
+100626,"Delphi Automotive PLC",DLPH,1521332
+76223,"BMO Financial Group",BMO,927971
+100673,"Boston Manufacturing Company",NULL,NULL
+100870,"Softech Inc.",SOFT.PK,NULL
+86582,"ALLTEL Corporation",AT,1419242
+58332,"GEO Group",GEO,923796
+28537,Teamhealth,TMH,1082754
+69355,"Popular Inc",BPOP,763901
+101392,"Oryx Energy",NULL,NULL
+101413,"Nestlé S.A.",NULL,NULL
+50658,"Time Warner Cable",TWC,1377013
+90769,"Dunkin' Brands Group, Inc.",DNKN,1357204
+101745,"The Princeton Review, Inc.",NULL,NULL
+90752,"NXP SEMICONDUCTORS N V",NXPI,1413447
+101752,"Washington Mutual, Inc.",WM,823768
+75967,"Old Mutual plc",OML,NULL
+101896,"Manulife Financial Corporation",NULL,NULL
+101928,"Nielsen Holdings N.V.",NLSN,1492633
+101969,"P. H. Glatfelter",NULL,NULL
+101976,"The Bank of New York Company, Inc.",NULL,NULL
+35637,"Loral Space & Communications, Inc.",LORL,1006269
+102098,"ABB LTD",NULL,NULL
+34783,"Accenture plc",ACN,1467373
+102101,"Exelis Inc.",XLS,1524471
+50234,"Harbinger Group Inc",HRG,109177
+102117,"LeCroy Corporation",NULL,NULL
+102118,"Spectrum Brands, inc.",SPC,1028985
+102161,"Spectrum Brands Holdings Inc.",NULL,NULL
+102237,"Nu Skin Enterprises Inc",NUS,1021561
+102569,"PT Bank Rakyat Indonesia (Persero) Tbk.",BBRI,NULL
+102589,"Franklin Resources Inc",BEN,38777
+80809,"Zynga, Inc.",ZNGA,1439404
+102783,"MAXIMUS, Inc.",NULL,NULL
+89994,"Plains Exploration & Production Company",PXP,891456
+102835,"Lamar Advertising",LAMR,1090425
+102865,"NorthWestern Corporation",NULL,NULL
+102897,"G4S plc",GFS,NULL
+102909,"Kemira Oyj",NULL,NULL
+103011,"Freescale Semiconductor, Ltd.",NULL,NULL
+103014,"CommunityOne Bank",FNBN,764811
+103019,"Central Pacific Financial Corp",NULL,NULL
+103025,"F.N.B. Corporation",NULL,NULL
+75698,"Amvescap PLC",IVZ,NULL
+75696,"Invesco Ltd.",IVZ,914208
+103068,"Genie Energy Ltd.",NULL,NULL
+103119,"Genesis Energy LLC",NULL,NULL
+103290,"Swire Pacific Limited",NULL,NULL
+90758,"Sensata Technologies Holding N.V.",ST,1477294
+103352,"Chase Corp.",NULL,NULL
+100557,"Talisman Energy Inc.",TLM,201283
+103378,"Vertex Group Holdings Limited",NULL,NULL
+103391,"M2 Telecommunications Group Ltd.",MTU,67088
+103419,"China Mobile, Ltd.",NULL,NULL
+103420,"Bank of East Asia, Ltd.",NULL,NULL
+88483,"AIA Group Ltd",1299,NULL
+103445,"Lewis Securities Ltd",NULL,NULL
+103447,"Pertama Holdings Limited",PERT,NULL
+103450,"Harvey Norman Holdings Ltd.",NULL,NULL
+103634,"Hunter Hall International Limited",HHL,NULL
+103740,"PT Smelting",NULL,NULL
+85080,"McMoRan Exploration",MMR,64279
+58106,"Hugoton Royalty Trust",HGT,862022
+103199,"Mesa Energy Holdings, Inc.",MSEH,NULL
+103782,"China TMK Battery Systems Inc.",DFEL,NULL
+103892,"Hancock Holding Company",HBHC,750577
+104108,"National Grid PLC",NULL,NULL
+79235," Novartis AG",NVSEF,NULL
+104112,"SSE PLC",NULL,NULL
+104114,"Westpac Banking Corporation",NULL,NULL
+104388,"HKN, Inc.",HKN,313478
+104862,"Macquarie Group Limited",MQG,NULL
+37563,"Heidrick & Struggles International Inc.",HSII,1066605
+105164,"Fosun International Limited 	",NULL,NULL
+85599,"NiSource Gas Transmission & Storage",NI,1111711
+105383,"N.V. Bekaert S.A.",NULL,NULL
+105583,"Anglo American Platinum Limited",NULL,NULL
+105584,"EFG International AG",NULL,NULL
+105607,"Habib Bank Limited",HBL,NULL
+105628,"Costar Corporation",NULL,NULL
+105679,"Bank Alfalah Ltd",BAFL,NULL
+105697,"Ferrari S.p.A.",NULL,NULL
+105698,"First Gulf Bank PJSC",NULL,NULL
+105699,"Aldar Properties PJSC",NULL,NULL
+105780,"The Babcock & Wilcox Company",NULL,NULL
+105804,"Union Oil Company of California",NULL,NULL
+105845,"Graphic Packaging Holding Company",NULL,NULL
+42426,"Internet Capital Group, Inc.",ICGE,1085621
+87433,"Marathon Petroleum Corporation",MPC,1510295
+78752,"Athabasca Oil Corporation",ATH,NULL
+38151,"Highwoods Properties Inc.",HIW,921082
+33586,"Carlyle Group",CG,1527166
+106036,"RSA Insurance Group plc",RSA,NULL
+106044,"Aspen Insurance Holdings Ltd",NULL,NULL
+38540,"Onex Corporation",OCX,NULL
+106128,"Atacama Pacific Gold Corporation",NULL,NULL
+106142,"Anaconda Mining Inc.",NULL,NULL
+106202,"Alleghany Corporation",Y,775368
+106208,"American Overseas Group Limited",AORE,NULL
+34788,"ACE Limited",ACE,896159
+106298,"Assured Guaranty Ltd.",AGO,NULL
+38509,"Apollo Investment Corporation",AINV,1278752
+42352,Dendreon,DNDN,1107332
+106416,"Kraft Foods Group, Inc.",KRFT.O,NULL
+106492,"Grand Metropolitan plc",NULL,NULL
+95422,"The ADT Corporation",ADT,1546640
+106727,"Ternium SA",TX,1342874
+106730,"Tenaris S.A.",NULL,NULL
+35586,"Grupo Carso SAB",GPOVY,NULL
+107315,"America Movil",NULL,NULL
+23785,"The Chubb Corporation",CB,20171
+107983,"Pacific Ethanol, Inc.",NULL,NULL
+87262,"Imperial Oil Limited",NULL,NULL
+108258,NSPB,NSPB,NULL
+108255,"Accretive Health",AH,1472595
+108329,"The Equitable Life Assurance Society of the United States",NULL,NULL
+95858,"AXA Equitable Life Insurance Company",NULL,NULL
+108347,"Rentech Inc.",NULL,NULL
+49210,"Complete Production Services, Inc",CPX,1340041
+26461,"Rockwell Collins Inc",COL,1137411
+108664,"OAO Lukoil",LKOH,NULL
+108699,"Adelphia Cable Corporation",NULL,NULL
+109108,"Al Baraka Banking Group",BARKA,NULL
+109204,"Madison Minerals Inc.",NULL,NULL
+109225,"AXMIN Inc.",NULL,NULL
+109282,"Orion Energy Systems, Inc.",OESX,1409375
+109350,"Private Media Group, Inc.",PRVT,1068084
+109495,"Tate & Lyle plc",NULL,NULL
+51126,"Intercontinental Exchange Inc",ICE,1174746
+737,"Vanguard Health Systems",VHS,1045829
+109667,"Albany Molecular Research",AMRI,1065087
+39514,"Teva Pharmaceutical Industries",TEVA,818686
+109353,"New Frontier Media, Inc",NOOF,847383
+86470,"Cadus Corporation",KDUS,911148
+110036,"Domino’s Pizza, Inc.",NULL,NULL
+110607,"Mayflower Corporation Plc",NULL,NULL
+110928,"RIT Capital Partners plc",NULL,NULL
+111140,"Gleacher & Company, Inc.",NULL,NULL
+80272,"Winmark Corp",WINA,908315
+80239,"Canterbury Park Holding Corporation",CPHC,926761
+111348,"Elbit Vision Systems Ltd.",EVSNF,NULL
+111350,"AFCON Holdings Group",NULL,NULL
+90410,"PHH Corporation",PHH,77776
+111522,"Candlewood Hotel Company, Inc.",NULL,NULL
+111548,"Vopak Internationaal B.V.",NULL,NULL
+111580,"Fortis Inc",NULL,NULL
+111584,"Imperial Tobacco Group plc",NULL,NULL
+111599,"Solvay SA",NULL,NULL
+111770,"BlueScope Steel Limited",BSL,NULL
+111771,"Macquarie Communications Infrastructure Group",NULL,NULL
+86954,"Westpac Banking Corporation",WBC,NULL
+111796,"Ageas SA/NV",NULL,NULL
+112111,"ModusLink Global Solutions Inc.",MLNK,914712
+112276,"CCL Industries Inc.",NULL,NULL
+112279,"Refco Inc.",NULL,NULL
+112292,"ICAP plc",NULL,NULL
+112324,"MarketAxess Holdings, Inc.",NULL,NULL
+112378,"LyondellBasell Industries N.V.",LYB,1489393
+112385,"Suburban Propane Partners, L.P.",SPH,1005210
+112512,"Arab Supply and Trading Corporation",NULL,NULL
+112786,"Innovex Inc.",NULL,NULL
+80219,"Deluxe Corporation",DLX,27996
+112796,"France Télécom SA",NULL,NULL
+112799,"Dexia SA",NULL,NULL
+112853,"Deutsche Post AG",NULL,NULL
+112861,"Air France KLM SA",AF,910322
+112889,"Walter Investment Management Corp.",NULL,NULL
+106243,"Walter Energy, Inc.",WLT,837173
+112900,"Techno Quartz Inc",NULL,NULL
+112904,"SES, S.A.",SESG,NULL
+112999,"LVMH Moet Hennessy Louis Vuitton SA",MC,NULL
+113428,"Papa John’s International, Inc.",NULL,NULL
+113509,"ZCL Composites Inc.",ZCL,NULL
+33692,Facebook,fb,1326801
+113546,"Cambium Learning Group, Inc.",ABCD,NULL
+113732,"Samba Financial Group",NULL,NULL
+113749,"Genpact Ltd.",NULL,NULL
+114089,"E.ON AG",NULL,NULL
+114123,"Coca Cola Femsa S.A.B. de C.V.",NULL,NULL
+114127,"Fomento Económico Mexicano, S.A.B. de C.V.",FMX,1061736
+114273,"Reservoir Exploration Technology ASA",NULL,NULL
+114338,"Global Eagle Acquisition Corporation",NULL,NULL
+40246,"Amyris, Inc.",AMRS,1365916
+114372,"DSW Inc.",NULL,NULL
+114382,"Re-act Enterprises, Inc.",ECGA,1100820
+114684,"Saudi Hollandi Bank",NULL,NULL
+114698,"Burger King Worldwide, Inc.",BKW,1547282
+114753,"Justice Holdings Limited",NULL,NULL
+46199,"Swiss Re Ltd.",SREN,NULL
+100252,"Magnum Hunter Resources Corp",MHR,1335190
+102173,"GreenHunter Energy Inc.",GRH,1410056
+115281,"Tel Offshore Trust",NULL,NULL
+115287,"Global Energy Development plc",GED,NULL
+115377,"ARC Group Worldwide, Inc.",NULL,NULL
+115411,"STW Resources Holding Corp.",NULL,NULL
+115436,"Vishay Precision Group, Inc.",NULL,NULL
+115470,"Resolute Energy Corporation",NULL,NULL
+115473,"Claxson Interactive Group Inc.",NULL,NULL
+115481,"Entertainment One Ltd.",ETO,NULL
+115496,"Digipath, Inc.",NULL,NULL
+115497,"Gold Hill Resources, Inc",NULL,NULL
+115499,"AuraSource, Inc.",NULL,NULL
+115507,"Oak Tree Educational Partners, Inc.",NULL,NULL
+115520,"MetaStat, Inc.",NULL,NULL
+115552,"Calibre Fund SPC",NULL,NULL
+115564,"ComF5 International, Inc.",NULL,NULL
+115599,"Fund.com Inc.",NULL,NULL
+115602,"New World Gold Corporation",NWGC,NULL
+115616,"Keating Capital, Inc.",NULL,NULL
+115620,"Sorrento Therapeutics, Inc.",NULL,NULL
+115734,"ICF International",ICFI,1362004
+40249,"American Science & Engineering Inc",ASEI,5768
+97240,Groupon,GRPN,1490281
+115908,"Intersections Inc.",NULL,NULL
+115932,"National Poultry Company PLC",NULL,NULL
+115944,"World Airways",NULL,NULL
+115986,"Astra Industrial Group Company",NULL,NULL
+116008,"Vector Group Ltd.",NULL,NULL
+116011,"United Capital Corp.",NULL,NULL
+116067,"VASCO Data Security International, Inc.",NULL,NULL
+116201,"AEGON N.V.",NULL,NULL
+116267,"Micronas Semiconductor Holding AG",MASN,NULL
+116295,"Danske Bank Group",DANSKE,NULL
+116297,"A.P. Moeller - Mearsk A/S",NULL,NULL
+116346,"Coloplast A/S",NULL,NULL
+116347,"Topdanmark A/S",NULL,NULL
+116354,"Laura Ashley Holdings PLC",NULL,NULL
+116359,"London Stock Exchange",NULL,NULL
+116409,"Telenor ASA",TELNF,NULL
+116439,"Green Energy Management Services Holdings, Inc.",NULL,NULL
+43647,"Dr Pepper Snapple Group, Inc.",DPS,1418135
+116590,"SolarCity Corporation",SCTY,1408356
+116676,"Tembec Inc.",NULL,NULL
+116754,"Silicon Valley Bancshares",NULL,NULL
+116768,"Forbes & Company Ltd.",502865,NULL
+116855,"Sperry Corporation",NULL,NULL
+97591,"General Motors Financial Company, Inc.",ACF,804269
+116877,"The St. Joe Company",JOE,745308
+116907,"Oppenheimer Holdings Inc.",OPY,791963
+116910,"Firstgroup Plc",FGP,922358
+116916,"Pinnacle Airlines Corp.",NULL,NULL
+33684,"Power Corporation of Canada",POW,NULL
+116968,"E-L Financial Corp. Ltd.",NULL,NULL
+116982,"Pargesa Holding SA",NULL,NULL
+117064,"Washington H. Soul Pattinson and Company Limited",SOL,1417892
+117258,"Del Monte Pacific Limited",DELM,NULL
+117276,"WSP Holdings Limited",NULL,NULL
+117278,"Standard Chartered PLC",STAN,1059262
+117279,"Xinyuan Real Estate Co., Ltd.",XIN,1398453
+117294,"UMW Holdings Berhad",NULL,NULL
+117297,"Innovative Card Technologies, Inc.",NULL,NULL
+117298,"KCAP Financial, Inc.",NULL,NULL
+117327,"Allied Irish Banks, p.l.c.",NULL,NULL
+117329,"Compass Minerals International, Inc.",NULL,NULL
+117330,"Idex Corporation",NULL,NULL
+117540,"Sydney Airport Holdings Limited",MAP,NULL
+117547,"Macquarie International Infrastructure Fund",NULL,NULL
+85440,"Lloyds Banking Group plc",LLOY,NULL
+79148,"FTI Consulting, Inc",FCN,887936
+70687,Cendant,CD,NULL
+118231,"Alexza Pharmaceuticals",NULL,NULL
+118236,"Golar LNG",GLNG,1207179
+52328,"Kaiser Aluminum and Chemical",KALU,811596
+112275,"Refco Group Ltd., LLC",NULL,NULL
+118735,"BMW AG",NULL,NULL
+118906,"Valeant Pharmaceuticals International",VRX,885590
+118940,"Activision Blizzard, Inc",ATVI,718877
+118941,"Akamai Technologies, Inc.",AKAM,1086222
+118942,"Alexion Pharmaceuticals, Inc.",ALXN,899866
+118943,"Altera Corporation",ALTR,768251
+118944,"America Movil, S.A.B. de C.V.",AMOV,1129137
+118945,"American Capital Agency Corp.",AGNC,1423689
+118946,"ANSYS, Inc.",ANSS,1013462
+118947,"Arch Capital Group Ltd.",ACGL,947484
+118948,"ARM Holdings plc",ARMH,1057997
+118949,"ASML Holding N.V.",ASML,937966
+118950,"Avago Technologies Limited",AVGO,1441634
+118951,"Baidu, Inc.",BIDU,1329099
+118952,"BioMarin Pharmaceutical Inc.",BMRN,1048477
+118953,"Catamaran Corporation",CTRX,1363851
+118954,"Celgene Corporation",CELG,816284
+118955,"Check Point Software Technologies Ltd.",CHKP,1015922
+118956,"Comcast Corporation",CMCSK,1166691
+118957,"Cree, Inc.",CREE,895419
+118958,"Discovery Communications, Inc.",DISCA,1437107
+118959,"Discovery Communications, Inc.",DISCK,1320482
+118960,"Electronic Arts Inc.",EA,712515
+118961,"Equinix, Inc.",EQIX,1101239
+118962,Ericsson,ERIC,717826
+118963,"F5 Networks, Inc.",FFIV,1048695
+118964,"Garmin Ltd.",GRMN,1121788
+118965,"Grifols, S.A.",GRFS,1438569
+118966,"Illumina, Inc.",ILMN,1110803
+118967,"Intuitive Surgical, Inc.",ISRG,1035267
+118968,"Kraft Foods Group, Inc.",KRFT,1545158
+118969,"Liberty Global, Inc.",LBTYK,1316631
+118970,"Liberty Interactive Corporation",LINTA,1355096
+118971,"Liberty Media Corporation",LMCA,1560385
+118972,"Linear Technology Corporation",LLTC,791907
+118973,"Linn Energy, LLC",LINE,1326428
+118974,"LKQ Corporation",LKQ,1065696
+118975,"lululemon athletica inc.",LULU,1397187
+118976,"Marvell Technology Group Ltd.",MRVL,1058057
+118977,"Melco Crown Entertainment Limited",MPEL,1381640
+118978,"MercadoLibre, Inc.",MELI,1099590
+118979,"Microchip Technology Incorporated",MCHP,827054
+118980,"Mondelez International, Inc.",MDLZ,1103982
+118981,"Monster Beverage Corporation",MNST,865752
+118982,"NET Servicos de Comunicacao S.A.",NETC,1024446
+118983,"NetEase, Inc.",NTES,1110646
+118984,"News Corporation",NWSA,1308161
+118985,"Norwegian Cruise Line Holdings Ltd.",NCLH,1513761
+118986,"Nuance Communications, Inc.",NUAN,1002517
+118987,"ONYX Pharmaceuticals, Inc.",ONXX,1012140
+118988,"Panera Bread Company",PNRA,724606
+118989,"Pharmacyclics, Inc.",PCYC,949699
+118990,"PowerShares QQQ Trust, Series 1",QQQ,NULL
+118991,"priceline.com Incorporated",PCLN,1075531
+118992,"Randgold Resources Limited",GOLD,1175580
+118993,"Regeneron Pharmaceuticals, Inc.",REGN,872589
+118994,"Research In Motion Limited",BBRY,NULL
+118995,"Ryanair Holdings plc",RYAAY,1038683
+118996,"SBA Communications Corporation",SBAC,1034054
+118997,"Seagate Technology.",STX,1137789
+118998,"SEI Investments Company",SEIC,350894
+118999,"Shire plc",SHPG,936402
+119000,"Sirius XM Radio Inc.",SIRI,908937
+119001,"Stericycle, Inc.",SRCL,861878
+119002,"Synopsys, Inc.",SNPS,883241
+119003,"Tesla Motors, Inc.",TSLA,1318605
+119004,"Trimble Navigation Limited",TRMB,864749
+119005,"TripAdvisor, Inc.",TRIP,1526520
+119006,"Ulta Salon, Cosmetics & Fragrance, Inc.",ULTA,1403568
+119007,"Vanguard Short-Term Corporate Bond ETF",VCSH,NULL
+119008,"VeriSign, Inc.",VRSN,1014473
+119009,"Verisk Analytics, Inc.",VRSK,1442145
+119010,"Vertex Pharmaceuticals Incorporated",VRTX,875320
+119011,"Viacom Inc.",VIA,1339947
+119012,"Vodafone Group Plc",VOD,839923
+119013,"Whole Foods Market, Inc.",WFM,865436
+119014,"WPP plc",WPPGY,806968
+119015,"Yandex N.V.",YNDX,1513845
+119016,"ABB Ltd",ABB,1091587
+119017,"AbbVie Inc.",ABBV,1551152
+119018,"Access Midstream Partners, LP",ACMP,1483096
+119019,"Actavis, Inc.",ACT,884629
+119020,"Advanced Semiconductor Engineering, Inc.",ASX,1122411
+119021,"Aegon NV",AEG,769218
+119022,"Affiliated Managers Group, Inc.",AMG,1004434
+119023,"AGCO Corporation",AGCO,880266
+119024,"Agnico Eagle Mines Limited",AEM,2809
+119025,"Agrium Inc.",AGU,943003
+119026,"Alleghany Corporation",Y,775368
+119027,"Aluminum Corporation of China Limited",ACH,1161611
+119028,"Amdocs Limited",DOX,1062579
+119029,"America Movil, S.A.B. de C.V.",AMX,1129137
+119030,"American Water Works",AWK,1410636
+119031,"AngloGold Ashanti Limited",AU,1067428
+119032,"Aon plc",AON,315293
+119033,ArcelorMittal,MT,1041989
+119034,"Astrazeneca PLC",AZN,901832
+119035,"AvalonBay Communities, Inc.",AVB,915912
+119036,"Aviva plc",AV,1140022
+119037,"Axis Capital Holdings Limited",AXS,1214816
+119038,"Banco Bilbao Viscaya Argentaria S.A.",BBVA,842180
+119039,"Banco Bradesco Sa",BBD,1160330
+119040,"Banco Bradesco Sa",BBDO,1160330
+119041,"Banco De Chile",BCH,1161125
+119042,"Banco Santander Brasil SA",BSBR,1471055
+119043,"Banco Santander Chile",BSAC,1027676
+119044,"Banco Santander, S.A.",SAN,931456
+119045,"BanColombia S.A.",CIB,1071371
+119046,"Bank of Nova Scotia (The)",BNS,9631
+119047,"Barclays PLC",BCS,312069
+119048,"Barrick Gold Corporation",ABX,756894
+119049,"BCE, Inc.",BCE,718940
+119050,"Beam Inc.",BEAM,789073
+119051,"BHP Billiton Limited",BHP,811809
+119052,"BHP Billiton plc",BBL,1171264
+119053,"Boardwalk Pipeline Partners L.P.",BWP,1336047
+119054,"Boston Properties, Inc.",BXP,1037540
+119055,"BP p.l.c.",BP,313807
+119056,"Braskem S.A.",BAK,NULL
+119057,"BRF S.A.",BRFS,1122491
+119058,"Brookfield Infrastructure Partners LP",BIP,1406234
+119059,"Brookfield Office Properties Inc.",BPO,1085359
+119060,"BT Group plc",BT,756620
+119061,"Buckeye Partners L.P.",BPL,805022
+119062,"Bunge Limited",BG,1144519
+119063,"Camden Property Trust",CPT,906345
+119064,"Cameco Corporation",CCJ,1009001
+119065,"Canadian Imperial Bank of Commerce",CM,1045520
+119066,"Canadian National Railway Company",CNI,16868
+119067,"Canadian Natural Resources Limited",CNQ,1017413
+119068,"Canadian Pacific Railway Ltd",CP,16875
+119069,"Canon, Inc.",CAJ,16988
+119070,"CareFusion Corporation",CFN,1457543
+119071,"Carnival Corporation",CCL,815097
+119072,"Carnival Plc ADS",CUK,1125259
+119073,"Cemex S.A.B. de C.V.",CX,1076378
+119074,"Cencosud S.A.",CNCO,NULL
+119075,"Cenovus Energy Inc",CVE,1475260
+119076,"CGI Group, Inc.",GIB,1061574
+119077,"Chicago Bridge & Iron Company N.V.",CBI,1027884
+119078,"China Life Insurance Company Limited",LFC,1268896
+119079,"China Mobile (Hong Kong) Ltd.",CHL,1117795
+119080,"China Petroleum & Chemical Corporation",SNP,1123658
+119081,"China Telecom Corp Ltd",CHA,1191255
+119082,"Chipotle Mexican Grill, Inc.",CMG,1058090
+119083,"Chunghwa Telecom Co., Ltd.",CHT,1132924
+119084,"CNH Global N.V.",CNH,1024519
+119085,"CNOOC Limited",CEO,1095595
+119086,"Cobalt International Energy, Inc.",CIE,1471261
+119087,"Coca Cola Femsa S.A.B. de C.V.",KOF,910631
+119088,"COCA COLA HELLENIC BOTTLING CO",OCCH,1144970
+119089,"Colfax Corporation",CFX,1420800
+119090,"Comp En De Mn Cemig ADS",CIG,1157557
+119091,"Companhia Brasileira de Distribuicao",CBD,1038572
+119092,"Companhia de Bebidas das Americas - AmBev",ABV,1113172
+119093,"Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp",SBS,1170858
+119094,"Concho Resources Inc.",CXO,1358071
+119095,"Continental Resources, Inc.",CLR,732834
+119096,"Cooper Companies, Inc. (The)",COO,711404
+119097,"Copa Holdings, S.A.",CPA,1345105
+119098,"Core Laboratories N.V.",CLB,1000229
+119099,"Cosan Limited",CZZ,1402902
+119100,"Covidien plc.",COV,1385187
+119101,"CPFL Energia S.A.",CPL,1300482
+119102,"Credicorp Ltd.",BAP,1001290
+119103,"Credit Suisse Group",CS,1159510
+119104,"CRH PLC",CRH,849395
+119105,"DDR Corp.",DDR,894315
+119106,"Denbury Resources Inc.",DNR,945764
+119107,"Deutsche Bank AG",DB,948046
+119108,"Diageo plc",DEO,835403
+119109,"Digital Realty Trust, Inc.",DLR,1297996
+119110,"Discover Financial Services",DFS,1393612
+119111,"Dollar General Corporation",DG,29534
+119112,"Dr. Reddy's Laboratories Ltd",RDY,1135951
+119113,"Duke Realty Corporation",DRE,783280
+119114,"Eaton Vance Corporation",EV,350797
+119115,"Edwards Lifesciences Corporation",EW,1099800
+119116,"El Paso Pipeline Partners LP",EPB,1410838
+119117,"Elan Corporation, plc",ELN,737572
+119118,"Eldorado Gold Corporation",EGO,918608
+119119,"Embraer-Empresa Brasileira de Aeronautica",ERJ,1117603
+119120,"Empresa Nacional de Electricidad S.A.",EOC,926864
+119121,"Enbridge Inc",ENB,895728
+119122,"Encana Corporation",ECA,1157806
+119123,"Enersis S A",ENI,912505
+119124,"ENI S.p.A.",E,1002242
+119125,"Enterprise Products Partners L.P.",EPD,1061219
+119126,"EQT Corporation",EQT,33213
+119127,"Essex Property Trust, Inc.",ESS,920522
+119128,"Etablissements Delhaize Freres et Cie &quot;Le Lion&quot; S.A.",DEG,930309
+119129,"Everest Re Group, Ltd.",RE,1095073
+119130,"Federal Realty Investment Trust",FRT,34903
+119131,"Fibria Celulose S.A.",FBR,1110649
+119132,"FleetCor Technologies, Inc.",FLT,1175454
+119133,"Fortune Brands Home & Security, Inc.",FBHS,1519751
+119134,"France Telecom",FTE,1038143
+119135,"Franco-Nevada Corporation",FNV,1456346
+119136,"Fresenius Medical Care Corporation",FMS,1019600
+119137,"Gartner, Inc.",IT,749251
+119138,"Gerdau S.A.",GGB,1073404
+119139,"Gildan Activewear, Inc.",GIL,1061894
+119140,"GlaxoSmithKline PLC",GSK,1131399
+119141,"Goldcorp Inc.",GG,919239
+119142,"Governor and Company of the Bank of Ireland (The)",IRE,800179
+119143,"Grupo Financiero Santander Mexico S.A. B. de C.V.",BSMX,NULL
+119144,"Grupo Televisa S.A.",TV,912892
+119145,"HCP, Inc.",HCP,765880
+119146,"HDFC Bank Limited",HDB,1144967
+119147,"Health Care REIT, Inc.",HCN,766704
+119148,"HollyFrontier Corporation",HFC,48039
+119149,"Honda Motor Company, Ltd.",HMC,715153
+119150,"HSBC Holdings plc",HBC,1089113
+119151,"Huaneng Power International, Inc.",HNP,929058
+119152,"ICICI Bank Limited",IBN,1103838
+119153,"IHS Inc.",IHS,1316360
+119154,"Infosys Limited",INFY,1067491
+119155,"ING Group, N.V.",ING,1039765
+119156,"ING U.S. Inc.",VOYA,1535929
+119157,"Ingersoll-Rand plc (Ireland)",IR,1466258
+119158,"Ingredion Incorporated",INGR,1046257
+119159,"Intercontinental Hotels Group",IHG,858446
+119160,"Itau Unibanco Banco Holding SA",ITUB,1132597
+119161,"Joy Global Inc.",JOY,801898
+119162,"KB Financial Group Inc",KB,1445930
+119163,"Kimco Realty Corporation",KIM,879101
+119164,"Kinder Morgan Management, LLC",KMR,1135017
+119165,"Kinross Gold Corporation",KGC,701818
+119166,"Koninklijke Philips N.V.",PHG,313216
+119167,"Korea Electric Power Corporation",KEP,887225
+119168,"KT Corporation",KT,892450
+119169,"Kubota Corporation",KUB,109821
+119170,"Kyocera Corporation",KYO,57083
+119171,"LATAM Airlines Group S.A.",LFL,1047716
+119172,"Leucadia National Corporation",LUK,96223
+119173,"LG Display Co., Ltd.",LPL,1290109
+119174,"LinkedIn Corporation",LNKD,1271024
+119175,"Lloyds Banking Group Plc",LYG,1160106
+119176,"Loews Corporation",L,60086
+119177,"Lorillard, Inc",LO,1424847
+119178,"Luxottica Group, S.p.A.",LUX,857471
+119179,"Macerich Company",MAC,912242
+119180,"Magellan Midstream Partners LP",MMP,1126975
+119181,"Magna International, Inc.",MGA,749098
+119182,"Manulife Financial Corp",MFC,1086888
+119183,"MarkWest Energy Partners, LP",MWE,1166036
+119184,"McGraw Hill Financial, Inc.",MHFI,64040
+119185,"Mead Johnson Nutrition Company",MJN,1452575
+119186,"Michael Kors Holdings Limited",KORS,1530721
+119187,"Mizuho Financial Group, Inc.",MFG,1335730
+119188,"Mobile TeleSystems",MBT,1115837
+119189,"Motorola Solutions, Inc.",MSI,68505
+119190,"National Bank of Greece SA",NBG,1096061
+119191,"National Grid Transco, PLC",NGG,1004315
+119192,"Netsuite Inc",N,1117106
+119193,"New York Community Bancorp, Inc.",NYCB,910073
+119194,"NextEra Energy, Inc.",NEE,753308
+119195,"Nidec Corporation (Nihon Densan Kabushiki Kaisha)",NJ,1158967
+119196,"Nippon Telegraph and Telephone Corporation",NTT,769594
+119197,"Noble Corporation",NE,1458891
+119198,"Nokia Corporation",NOK,924613
+119199,"Nomura Holdings Inc ADR",NMR,1163653
+119200,"Novartis AG",NVS,1114448
+119201,"Novo Nordisk A/S",NVO,353278
+119202,"NTT DOCOMO, Inc",DCM,1166141
+119203,"Oaktree Capital Group, LLC",OAK,1403528
+119204,"Ocwen Financial Corporation",OCN,873860
+119205,"ONEOK Partners, L.P.",OKS,909281
+119206,"Open Joint Stock Company &quot;Vimpel-Communications&quot;",VIP,1468091
+119207,"Orix Corp Ads",IX,1070304
+119208,"P.T. Telekomunikasi Indonesia, Tbk",TLK,1001807
+119209,"PartnerRe Ltd.",PRE,911421
+119210,"Pearson, Plc",PSO,938323
+119211,"Pembina Pipeline Corp.",PBA,1546066
+119212,"PetroChina Company Limited",PTR,1108329
+119213,"Petroleo Brasileiro S.A.- Petrobras",PBR,1119639
+119214,"Philip Morris International Inc",PM,1413329
+119215,"Philippine Long Distance Telephone Company",PHI,78150
+119216,"Phillips 66",PSX,1534701
+119217,POSCO,PKX,889132
+119218,"Potash Corporation of Saskatchewan Inc.",POT,855931
+119219,"Prudential Public Limited Company",PUK,1116578
+119220,"QEP Resources, Inc.",QEP,1108827
+119221,"Qihoo 360 Technology Co. Ltd.",QIHU,1508913
+119222,"Rackspace Hosting, Inc",RAX,1107694
+119223,"Rayonier Inc.",RYN,52827
+119224,"Realogy Holdings Corp.",RLGY,1398987
+119225,"Realty Income Corporation",O,726728
+119226,"Red Hat, Inc.",RHT,1087423
+119227,"Reed Elsevier NV",ENL,929872
+119228,"Regency Energy Partners LP",RGP,1338613
+119229,"ResMed Inc.",RMD,943819
+119230,"Rio Tinto Plc",RIO,915754
+119231,"Rogers Communication, Inc.",RCI,733099
+119232,"Royal Bank Of Canada",RY,1000275
+119233,"Royal Bank Scotland plc (The)",RBS,NULL
+119234,"Royal Caribbean Cruises Ltd.",RCL,884887
+119235,"Salesforce.com Inc",CRM,1108524
+119236,Sanofi,SNY,1121404
+119237,"SAP AG",SAP,1000184
+119238,"Sasol Ltd.",SSL,314590
+119239,"Seadrill Limited",SDRL,1351413
+119240,"Shaw Communications Inc.",SJR,932872
+119241,"Shinhan Financial Group Co Ltd",SHG,1263043
+119242,"Siemens AG",SI,1135644
+119243,"Signet Jewelers Limited",SIG,832988
+119244,"Silver Wheaton Corp",SLW,1323404
+119245,"SK Telecom Corporation, Ltd.",SKM,1015650
+119246,"SL Green Realty Corporation",SLG,1040971
+119247,"Smith & Nephew SNATS, Inc.",SNN,845982
+119248,"Sociedad Quimica y Minera S.A.",SQM,909037
+119249,"Sony Corp Ord",SNE,313838
+119250,"Southern Copper Corporation",SCCO,1001838
+119251,"Statoil ASA",STO,1140625
+119252,"Sterlite Industries (India) Limited",SLT,1370431
+119253,"STMicroelectronics N.V.",STM,932787
+119254,"Sumitomo Mitsui Financial Group Inc",SMFG,1022837
+119255,"Sun Life Financial Inc.",SLF,1097362
+119256,"Suncor Energy  Inc.",SU,311337
+119257,"Sunoco Logistics Partners LP",SXL,1161154
+119258,"Syngenta AG",SYT,1123661
+119259,"Taiwan Semiconductor Manufacturing Company Ltd.",TSM,1046179
+119260,"Tata Motors Ltd",TTM,926042
+119261,"Taubman Centers, Inc.",TCO,890319
+119262,"TE Connectivity Ltd.",TEL,1385157
+119263,"Teck Resources Ltd",TCK,886986
+119264,"Telecom Italia S.P.A.",TI,948642
+119265,"Telefonica Brasil S.A.",VIV,1066119
+119266,"Telefonica SA",TEF,814052
+119267,"TELUS Corporation",TU,868675
+119268,"Tenaris S.A.",TS,1190723
+119269,"Teradata Corporation",TDC,816761
+119270,"Thomson Reuters Corp",TRI,1074771
+119271,"Tim Hortons Inc.",THI,1345111
+119272,"TIM Participacoes S.A.",TSU,1066116
+119273,"T-Mobile US, Inc.",TMUS,1283699
+119274,"Toronto Dominion Bank (The)",TD,947263
+119275,"TotalFinaElf, S.A.",TOT,879764
+119276,"Toyota Motor Corp Ltd Ord",TM,1094517
+119277,"TransCanada Corporation",TRP,1232384
+119278,"Transdigm Group Incorporated",TDG,1260221
+119279,"Transocean Ltd.",RIG,1451505
+119280,"Turkcell Iletisim Hizmetleri AS",TKC,1071321
+119281,"Turquoise Hill Resources Ltd.",TRQ,1158041
+119282,"UBS AG",UBS,1114446
+119283,"Ultrapar Participacoes S.A.",UGP,1094955
+119284,"Under Armour, Inc.",UA,1336917
+119285,"Unilever NV",UN,110390
+119286,"Unilever PLC",UL,217410
+119287,"United Continental Holdings, Inc.",UAL,100517
+119288,"United Dominion Realty Trust, Inc.",UDR,74208
+119289,"United Microelectronics Corporation",UMC,1033767
+119290,"VALE S.A.",VALE,917851
+119291,"Valhi, Inc.",VHI,59255
+119292,"Ventas, Inc.",VTR,740260
+119293,"Veolia Environnement",VE,1160110
+119294,"Vermilion Energy Inc.",VET,NULL
+119295,"Visa Inc.",V,1403161
+119296,"Vmware, Inc.",VMW,1124610
+119297,"Waste Connections, Inc.",WCN,1057058
+119298,"Weatherford International, Ltd",WFT,1453090
+119299,"Western Gas Equity Partners, LP",WGP,1423902
+119300,"Western Gas Partners, LP",WES,1414475
+119301,"Westinghouse Air Brake Technologies Corporation",WAB,943452
+119302,"Westpac Banking Corporation",WBK,719245
+119303,"Whiting Petroleum Corporation",WLL,1255474
+119304,"Williams Partners L.P.",WPZ,1324518
+119305,"Willis Group Holdings Limited",WSH,1140536
+119306,"Wipro Limited",WIT,1123799
+119307,"Woori Finance Holdings Co Ltd",WF,1264136
+119308,"XL Group plc",XL,875159
+119309,"Xylem Inc.",XYL,1524472
+119310,"Yamana Gold Inc.",AUY,1264089
+119311,"Yanzhou Coal Mining Company Limited",YZC,1048098
+119312,"YPF Sociedad Anonima",YPF,904851
+119313,"Zoetis Inc.",ZTS,1555280
+119314,"British American Tobacco p.l.c.",BTI,1068892
+119315,"Cheniere Energy Partners, LP",CQP,1383650
+119316,"Cheniere Energy, Inc.",LNG,NULL
+119317,"Imperial Oil Limited",IMO,49938
+67629,"Cheniere Energy",LNG,3570
+28274,"Booz Allen Hamilton, Inc.",BAH,1443646
+127557,"Vedanta Resources plc",NULL,NULL
+78704,"Barrick Gold Corporation",ABX,NULL
+87258,"Canadian National Railway Company",CNI,NULL
+76200,"Royal Bank of Canada",RY,1000275
+87481,"Bombardier Inc.",BBD/B,NULL
+127893,"Inergy LP",NRGY,1136352
+78872,"Crestwood Midstream Partners LP",CMLP,1389030
+128339,"Brady Corporation",BRC,NULL
+42404,"Corinthian Colleges",COCO,1066134
+129486,"Higher One Holdings, Inc.",ONE,1486800
+50831,"M & F Worldwide Corporation",MFW,945235
+130037,"Silver Bay Realty Trust Corp.",NULL,NULL
+88818,"Eni SpA",E,1002242
+130674,"Cheung Kong (Holdings) Limited",NULL,NULL
+130680,"Antofagasta PLC",ANTO,NULL
+130681,"Duluth Metals Limited",NULL,NULL
+38804,"Tesla Motors, Inc",TSLA,1318605
+131865,"Straits Resources, Ltd.",SRQ,NULL
+132789,"QBE Insurance Group Ltd.",QBE,NULL
+132794,"Wesfarmers Limited",WES,NULL
+106422,"Wal-Mart de Mexico, S.A.B. de C.V.",WMMVY,NULL
+134233,"Vantiv, Inc.",VNTV,NULL
+116429,"EarthLink, Inc.","NASDAQ: EL",NULL
+134691,"Aircastle Ltd.",NULL,NULL
+135023,"Mount Everest Mineral Water Ltd",NULL,NULL
+135024,"Oriental otels ltd",NULL,NULL
+135025,"Oriental otels ltd",NULL,NULL
+135026,"Oriental Hotels Limited",NULL,NULL
+94928,"Mediterranean Tourism Investment Company",NULL,NULL
+135064,"Euro Disney S.C.A.",NULL,NULL
+135095,"Agro Tech Foods Limited",ATFL,NULL
+135199,"Myriad Genetics, Inc.",MYGN.O,NULL
+135217,"Cytokinetics, Incorporated",NULL,NULL
+135396,"Northern Pacific Railroad Company",NULL,NULL
+135402,"Petroleum & Resources Corporation",PEO,NULL
+136302,"Intertek Group plc",NULL,NULL
+136568,"Suffolk BanCorp.",NULL,NULL
+138396,"Johnson Outdoors",NULL,NULL
+138546,"Move, Inc.",NULL,NULL
+138667,"American Apparel, Inc.",NULL,NULL
+138670,"Home Loan Servicing Solutions, Ltd.",NULL,NULL
+138726,"RHJ International SA",RHJI,NULL
+98181,"Weyerhaeuser Company",WY,106535
+138755,"Forest City Enterprises, Inc.",FCE.A,NULL
+113096,"Dynegy Inc.",DYN,1379895
+138893,"Isle of Capri Casinos, Inc.",NULL,NULL
+139245,"Rambus Inc.",NULL,NULL
+139288,"Infinity Pharmaceuticals, Inc.",NULL,NULL
+139291,"Tricon Capital Group Inc.",NULL,NULL
+139374,"FRMO Corporation",NULL,NULL
+86126,"Cadence Design Systems, Inc",CDNS,NULL
+137859,"Twenty-First Century Fox, Inc.",FOX,1308161
+139852,"News Corporation",NWSA,NULL
+35072,"DreamWorks Animation SKG, Inc.",DWA,NULL
+140241,"Hollywood Media Corp.",HOLL,NULL
+44801,LinkedIn,LNKD,1271024
+38384,VISA,V,1403161
+141063,"Nuverra Environmental Solutions",NES,1403853
+141064,"Aqua-Pure Ventures",AQE,NULL
+141065,"GreenHunter Resources",GRH,1410056
+85651,"Unilever PLC",UL,217410
+141450,"Air Lease Corporation",AL,NULL
+87246,"FriendFinder Networks Inc.",FFN,NULL
+141462,"Commonwealth Bank of Australia",NULL,NULL
+116094,"Paris Orléans S.C.A.",PROR.PA,NULL
+141541,"Armada Oil",AOIL,1081074
+48990,"Cardiome Pharma Corp.",COM,NULL
+141687,"Redefine International Plc",NULL,NULL
+84376,"MarkWest Energy Partners LP",MWE,1166036
+43569,"American Water Works Company",AWK,NULL
+143750,"Culp, Inc.",CFI,NULL
+141150,"A. H. Belo Corporation",AHC,NULL
+89700,"Goldcorp Inc",GG,919239
+143872,"Far West Financial Corp.",NULL,NULL
+35711,"Eckerd Corporation",NULL,NULL
+144179,"Eagle Rock Energy Partners, L.P.",NULL,NULL
+58108,"NGP Capital Resources Company",NGPC,NULL
+145175,"News Corporation",NWS,NULL
+83397,"British Sky Broadcasting Group plc",BSY,NULL
+145357,"KSW Inc.",NULL,NULL
+145516,"AmeriGas Partners, L.P.",APU,NULL
+145813,"DCP Midstream Partners, LP",DPM,NULL
+51320,"Lorillard, Inc",LO,1424847
+146015,"Springs Global Participações S.A.",SGPS3,NULL
+118838,"Canadian Natural Resources Limited",CNQ,1017413
+90176,"Cenovus Energy Inc.",CVE,1475260
+146169,"PolyMet Mining Corp",PLM,NULL
+146614,"Matrix Service Company",MTRX,NULL
+146631,"Mesabi Trust",MSB,NULL
+146716,"Nordion Inc.",NULL,NULL
+146718,"Transition Therapeutics Inc.",TTHI,NULL
+146722,"NWA Inc.",NULL,NULL
+147048,"Career Education Corporation",CECO,1046568
+87460,"Agrium Inc.",AGU,943003
+87637,"Encana Corporation",ECA,1157806
+147069,"ViaSat, Inc.",NULL,NULL
+147072,"API Technologies Corp.",ATNY,NULL
+147078,"Kratos Defense & Security Solutions, Inc.",KTOS,NULL
+147170,"Gilat Satellite Networks Ltd.",NULL,NULL
+147363,"AerCap Holdings N.V.",AER,NULL
+147365,"Waha Capital PJSC",WAHA,NULL
+148482,"Bridgestone Corporation",5108:Tokyo,NULL
+148577,"The Standard Register Company",NULL,NULL
+217,"Aramark Corporation",ARMK,1584509
+107158,"Mead Johnson Nutrition Company",MJN,1452575
+148784,"Wolters Kluwer N.V.",WKL,NULL
+148958,"First Citizens Bancshares Inc.",NULL,NULL
+148961,"Southern BancShares NC Inc.",SBNC,NULL
+148984,"Yadkin Valley Company",NULL,NULL
+28633,"Education Management Corporation",EDMC,880059
+149288,"Biglari Holdings Inc.",BH,NULL
+149400,"Westernzagros Resources Ltd.",NULL,NULL
+149467,"Powersafe Technology Corp",NULL,NULL
+89803,"Anglo American Plc",AAL,NULL
+79107,"AngloGold Ashanti Limited",ANG,NULL
+149869,"Inmarsat plc",ISAT,NULL
+150867,"Beneficial Corporation",NULL,NULL
+151008,"Westfield Group",WSF,NULL
+151145,"Sogefi SpA",NULL,NULL
+151146,"CIR S.p.A.",NULL,NULL
+151151,"Cofide S.p.A.",NULL,NULL
+151662,"CTS Corporation",CTS,NULL
+152306,"Suzlon Energy Limited",SEL,NULL
+50873,"Bank of Montreal",BMO,927971
+152384,"Montreal Gas Light Company",NULL,NULL
+152387,"Champlain and St Lawrence Railroad",NULL,NULL
+152504,"Brainerd & Northern Minnesota Railway Co.",NULL,NULL
+59256,"Rice Energy Inc.",RICE,NULL
+152984,"Cray Inc.",CRAY,NULL
+152987,"Silicon Graphics International Corp",NULL,NULL
+153222,"Hargreaves Group PLC",NULL,NULL
+153226,"Shaklee Global Group Inc.",NULL,NULL
+154302,"Pacific Basin Shipping, Limited",NULL,NULL
+154380,"Wheelock and Company Ltd.",20,NULL
+154381,"Oceania Capital Partners Limited",OCP,NULL
+154388,"KeyBridge Capital Limited",NULL,NULL
+154390,"TAG Pacific Limited",NULL,NULL
+154402,"Niveus Investments Limited",NULL,NULL
+45082,"Sirius XM Radio, Inc.",SIRI,908937
+155169,"CEO America Inc.",NULL,NULL
+155193,"Green Equity Holdings, Inc.",NULL,NULL
+155211,"Healthy & Tasty Brands Corporation",NULL,NULL
+155241,"S Wind-up Corporation",NULL,NULL
+49916,"AmBase Corp.",ABCP,NULL
+155305,"CDC Software Corporation",NULL,NULL
+155379,"Getty Copper Inc.",NULL,NULL
+155380,"Laredo Resources Corp.",NULL,NULL
+155381,"Olie Inc.",NULL,NULL
+94269,"East West Bancorp, Inc.",EWBC,NULL
+30832,"El Paso Electric Company",EE,NULL
+39719,MEDNAX,MD,893949
+158843,"Aviv REIT",AVIV,1499686
+161637,"Volkswagen AG",NULL,NULL
+82875,"Huntington Ingalls Industries Inc.",HII,NULL
+162187,"Ambassadors International, Inc.",NULL,NULL
+162226,"Materion Corporation",NULL,NULL
+162228,"Matson, Inc.",NULL,NULL
+162337,"Trinet Group, Inc.",NULL,NULL
+162363,"Tata Steel Limited",NULL,NULL
+162365,"Tata Sponge Iron Ltd.",NULL,NULL
+162366,"Tata Power Company Limited",NULL,NULL
+163414,"Wesco Aircraft Holdings, Inc",NULL,NULL
+163922,"Israel Corporation Ltd.",ILCO,NULL
+163945,"Pacific Drilling S.A.",NULL,NULL
+164026,"Northwest Biotherapeutics",NWBO,1072379
+90763,"Cumulus Media Inc.",CMLS,NULL
+100264,"Petrohawk Energy Corporation",HK,1282648
+165740,"Manning & Napier, Inc.",NULL,NULL
+165828,"Abu Dhabi National Energy Company PJSC",NULL,NULL
+165831,"Union National Bank PJSC",NULL,NULL
+165832,"Umicore S.A",NULL,NULL
+166271,"China Recycling Energy Corporation",CREG,NULL
+166277,"China Housing and Land Development, Inc.",NULL,NULL
+166362,"Everyday Health, Inc.",EVDY,1358483
+166580,"South Sea Company",NULL,NULL
+166707,"Deckers Outdoor Corporation",NULL,NULL
+110325,"Zhone Technologies Inc",ZHNE,NULL
+166897,"GlobeSpanVirata Inc.",NULL,NULL
+167064,"CHC Group Ltd.",NULL,NULL
+110323,"Lenovo Group Ltd.",0992,NULL
+167073,"CBL & Associates Properties, Inc.",CBL,NULL
+87237,"Northstar Realty Finance Corp",NRF,NULL
+73772,"Telefónica S.A.",TEF,814052
+167296,"Midstates Petroleum Company, Inc.",MPO,NULL
