@@ -179,6 +179,24 @@ def getCentralNodes(graph, num_most_central, name_dict):
     
     for i in xrange(num_most_central):
         print "%d. Node: %s, Centrality: %f" % (i + 1, sorted_dict[i][0], sorted_dict[i][1])
+        
+
+#lynchpins are the nodes that best connect the rest of the graph to form shortcuts
+def getLynchpins(graph, num_lynchpins, name_dict):
+    Nodes = snap.TIntFltH()
+    Edges = snap.TIntPrFltH()
+    snap.GetBetweennessCentr(graph, Nodes, Edges, 1.0)
+    
+    lynchpin_dict = {}
+    
+    for node in Nodes:
+        name = name_dict[str(int(node))]
+        lynchpin_dict[name] = Nodes[node]
+        
+    sorted_dict = sorted(lynchpin_dict.items(), key=operator.itemgetter(1), reverse=True)
+    
+    for i in xrange(num_lynchpins):
+        print "%d. Node: %s, Betweennness Score: %f" % (i + 1, sorted_dict[i][0], sorted_dict[i][1])    
     
 
 def getHighestNodeDegrees(graph, num_highest_degree, name_dict):
@@ -195,6 +213,15 @@ def getHighestNodeDegrees(graph, num_highest_degree, name_dict):
     for i in xrange(num_highest_degree):
         print "%d. Node: %s, Degree: %d" % (i + 1, sorted_dict[i][0], sorted_dict[i][1])
 
+
+def analyzeLynchpins(corporation_network, director_network, all_companies, all_directors):
+    print ""
+    print "Top Lynchpin Companies"
+    getLynchpins(corporation_network, 20, all_companies)
+    
+    print ""
+    print "Top Lynchpin Directors"
+    getLynchpins(director_network, 10, all_directors)
 
 
 def analyzeCentrality(corporation_network, director_network, all_companies, all_directors):
@@ -222,6 +249,23 @@ def analyzeNodeDegree(corporation_network, director_network, all_companies, all_
     getHighestNodeDegrees(director_network, 10, all_directors)
     
 
+def analyzeGraphStructure(graph):
+    print "Number of Nodes: %d" % (graph.GetNodes())
+    print "Average Degree: %f" % (2.0 * float(graph.GetEdges()) / float(graph.GetNodes()))
+    avg_path_length = snap.GetBfsEffDiam(graph, 50, False)
+    print "Average Shortest Path Length: %f" % (avg_path_length)
+    print "Clustering Coefficient: %f" % (snap.GetClustCf(graph, -1))
+    
+def analyzeStructure(corporation_network, director_network):
+    print ""
+    print "Director Network Properties"
+    analyzeGraphStructure(director_network)
+    
+    print ""
+    print "Corporation Network Properties"
+    analyzeGraphStructure(corporation_network)    
+    
+
 #takes a vector of x,y points and plots them to be used with gnuplot
 def printPlotFile(result_vector, file_name):
     print "Printing file %s" % (file_name)
@@ -245,8 +289,10 @@ if __name__ == '__main__':
     print "Corporation Network Generated with %d nodes and %d edges" % (corporation_network.GetNodes(), corporation_network.GetEdges())
 
     #WRITE ANALYSIS FUNCITONS AND CALL THEM HERE
+    #analyzeStructure(corporation_network, director_network)
     #analyzeCentrality(corporation_network, director_network, all_companies, all_directors)
     #analyzeNodeDegree(corporation_network, director_network, all_companies, all_directors)
+    #analyzeLynchpins(corporation_network, director_network, all_companies, all_directors)
 
     
     
