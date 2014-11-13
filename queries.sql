@@ -18,3 +18,9 @@ where r.entity2_id = e.id
       
 
 
+select e.id as 'Company ID', e.name as 'Company Name', i.name as 'Industry Name', i.code as 'SIC Code'
+from entity e, business_industry bi, industry i
+where e.id = bi.business_id
+      AND bi.industry_id = i.id
+ORDER BY e.id ASC;
+      

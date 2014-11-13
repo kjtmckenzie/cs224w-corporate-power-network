@@ -265,6 +265,82 @@ def analyzeStructure(corporation_network, director_network):
     print "Corporation Network Properties"
     analyzeGraphStructure(corporation_network)    
     
+def getCompanyIndustries(path, all_companies):
+    industry_relationships = []
+    try:
+        f = open(path, 'rt')
+        reader = csv.reader(f)
+        for row in reader:
+            industry_relationships.append(row)
+    finally:
+        f.close()
+    
+    #remove the column names
+    industry_relationships.pop(0)
+    
+    company_industry = {}
+    
+    for key, value in all_companies.iteritems():
+        company_industry[key] = "No Listed Industry"
+    
+    for i in xrange(len(industry_relationships)):
+        company_id = str(industry_relationships[i][0])
+        company_name = str(industry_relationships[i][1])
+        industry_name = str(industry_relationships[i][2])
+        sic_code = str(industry_relationships[i][3])
+        if company_id in all_companies:
+            company_industry[company_id] = industry_name
+
+    return company_industry
+        
+
+def analyzeIndustryCentrality(path_to_company_data, graph, all_companies, num_lynchpins, min_companies):
+    company_industry = getCompanyIndustries(path_to_company_data, all_companies)
+    Nodes = snap.TIntFltH()
+    Edges = snap.TIntPrFltH()
+    snap.GetBetweennessCentr(graph, Nodes, Edges, 1.0)
+    
+    centrality_dict = {}
+    
+    for node in Nodes:
+        node_id = str(int(node))
+        centrality_dict[node_id] = Nodes[node]
+        
+    all_industries = []
+    
+    for key, value in company_industry.iteritems():
+        if value not in all_industries:
+            all_industries.append(value)
+    
+    industry_comp_count = {}
+    industry_avg_centrality = {}
+    for industry in all_industries:
+        total_centrality = 0
+        company_count = 0
+        for key, value in company_industry.iteritems():
+            if value == industry:
+                company_count += 1
+                total_centrality = float(total_centrality) + float(centrality_dict[key])
+        avg_centrality = float(total_centrality) / float(company_count)
+        industry_avg_centrality[industry] = avg_centrality
+        industry_comp_count[industry] = company_count
+    
+    sorted_dict = sorted(industry_avg_centrality.items(), key=operator.itemgetter(1), reverse=True)
+    
+
+    i = 0
+    num_printed = 0
+    total_companies = len(all_companies)
+    print ""
+    print "Most Central Industries with a Minimum of %d Companies" % (min_companies)
+    while (num_printed < num_lynchpins and i < total_companies):
+        industry = sorted_dict[i][0]
+        avg_betweenness = sorted_dict[i][1]
+        num_companies = industry_comp_count[industry]
+        if num_companies >= min_companies:
+            print "%d. Industry: %s, Avg Betweenness: %f, Number of Companies: %d" % (num_printed + 1, industry, avg_betweenness, num_companies) 
+            num_printed += 1
+        i += 1
 
 #takes a vector of x,y points and plots them to be used with gnuplot
 def printPlotFile(result_vector, file_name):
@@ -292,9 +368,8 @@ if __name__ == '__main__':
     #analyzeStructure(corporation_network, director_network)
     #analyzeCentrality(corporation_network, director_network, all_companies, all_directors)
     #analyzeNodeDegree(corporation_network, director_network, all_companies, all_directors)
-    #analyzeLynchpins(corporation_network, director_network, all_companies, all_directors)
-
-    
-    
+    #analyzeLynchpins(corporation_network, director_network, all_companies, all_directors)    
+    #analyzeIndustryCentrality('./company_industries.csv', corporation_network, all_companies, 10, 4)
+    #analyzeIndustryCentrality('./company_industries.csv', corporation_network, all_companies, 10, 10)
     
     
