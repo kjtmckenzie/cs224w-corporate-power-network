@@ -57,7 +57,7 @@ if GENERATE:
 
 else:
     # for i in range(2001, 2014):
-    for i in [2001, 2002, 2003]:
+    for i in [2001, 2002]:
         print "loading graph: %d" % i
         company_graph.append(nx.read_gpickle("company" + str(i) + ".p"))
         people_graph.append(nx.read_gpickle("people" + str(i) + ".p"))
@@ -85,7 +85,7 @@ if GENERATE_CLIQUE:
         pickle.dump(communities[i - 2001], open("communities_" + str(i - 2001) + ".p", "wb"))
 else:
     # for i in range(2001, 2014):
-    for i in [2001, 2002, 2003]:
+    for i in [2001, 2002]:
         communities.append(pickle.load(open("communities_" + str(i - 2001) + ".p", "rb")))
 
 
@@ -145,6 +145,8 @@ if GENERATE_COMMUNITY_ASSIGNMENTS: # This is currently a test with just two netw
     print "number of unchanged communities: %d" % C.values().count(1.0)
     print "Changes:"
     print Counter(C_change.values())
+    pickle.dump(C,open("C_2001-2001,p", "wb"))
+    pickle.dump(C_change, open("C_Change_2001-2002,p","wb"))
 
 
 
