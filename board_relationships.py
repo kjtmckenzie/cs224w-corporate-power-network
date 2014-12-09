@@ -364,12 +364,14 @@ if __name__ == '__main__':
     corporation_network, corp_edge_dict = loadCorporationNetwork(relationships, all_directors, all_companies)
     print "Corporation Network Generated with %d nodes and %d edges" % (corporation_network.GetNodes(), corporation_network.GetEdges())
 
-    #WRITE ANALYSIS FUNCITONS AND CALL THEM HERE
-    #analyzeStructure(corporation_network, director_network)
-    #analyzeCentrality(corporation_network, director_network, all_companies, all_directors)
-    #analyzeNodeDegree(corporation_network, director_network, all_companies, all_directors)
-    #analyzeLynchpins(corporation_network, director_network, all_companies, all_directors)    
-    #analyzeIndustryCentrality('./company_industries.csv', corporation_network, all_companies, 10, 4)
-    #analyzeIndustryCentrality('./company_industries.csv', corporation_network, all_companies, 10, 10)
+    analyzeStructure(corporation_network, director_network)
+    analyzeCentrality(corporation_network, director_network, all_companies, all_directors)
+    analyzeNodeDegree(corporation_network, director_network, all_companies, all_directors)
+    analyzeLynchpins(corporation_network, director_network, all_companies, all_directors)    
+    analyzeIndustryCentrality('./company_industries.csv', corporation_network, all_companies, 10, 4)
+    analyzeIndustryCentrality('./company_industries.csv', corporation_network, all_companies, 10, 10)
+    
+    #snap.SaveEdgeList(director_network, 'director_edgelist.txt')
+    #snap.SaveEdgeList(corporation_network, 'corporation_edgelist.txt')
     
     
