@@ -15,7 +15,7 @@ company_graph = []
 people_graph = []
 
 GENERATE = False
-GENERATE_CLIQUE = False
+GENERATE_CLIQUE = True
 GENERATE_COMMUNITY_ASSIGNMENTS = True
 k = 2
 
@@ -25,6 +25,11 @@ if GENERATE:
 
         # load the edges
         B = nx.read_edgelist("relationship_detail_" + str(i) + ".csv", delimiter=',', nodetype=int)
+
+        # remove nodes below 1000
+        for node in B:
+            if node > 1000:
+                B.remove_node(node)
 
         # load the company node list
 
@@ -64,11 +69,36 @@ else:
 
 communities = []
 if GENERATE_CLIQUE:
-    for i in range(2001, 2014):
+    # for i in range(2001, 2014):
+    for i in [2001, 2002]:
+
+        # get the original bipartite graph for determining company breadth of a network
+        B = nx.read_edgelist("relationship_detail_" + str(i) + ".csv", delimiter=',', nodetype=int)
 
         print "generating cliques: %d" % i
         communities.append(list(nx.k_clique_communities(people_graph[i - 2001], 4)))
         numerator = set()
+
+        # remove cliques below a certain weight that do not project onto a certain number of companies
+        intensities = []
+        intensities_year = []
+        pruned_communities = []
+        for community in communities[i - 2001]:
+            sub_graph = people_graph[i-2001].subgraph(community)
+            clique_intensity = 0.0
+            company_set = set()
+            for edge in sub_graph.edges(data=True):
+                clique_intensity += edge[2]['weight']
+                company_set = company_set.union(B.neighbors(edge[0]))
+                company_set = company_set.union(B.neighbors(edge[1]))
+                clique_intensity += len(B.neighbors(edge[0])) + len(B.neighbors(edge[1]))
+            clique_intensity = clique_intensity / ((nx.number_of_nodes(sub_graph) + len(company_set)) * ((nx.number_of_nodes(sub_graph)-1) + len(company_set)) / 2)
+            if clique_intensity > 1 and len(company_set) >= 2:
+                pruned_communities.append(community)
+                intensities.append(clique_intensity)
+
+        communities[i-2001] = pruned_communities
+        intensities_year.append(intensities)
 
         for j in range(0, len(communities[i - 2001])):
             numerator = numerator.union(list(communities[i - 2001][j]))
@@ -90,13 +120,23 @@ else:
 
 
 if GENERATE_COMMUNITY_ASSIGNMENTS: # This is currently a test with just two networks to get everything working
-    # get all of the communities in the union of the two V = E U D
 
+    # get all of the communities in the union of the two V = E U D
     V = nx.Graph()
-    V.add_edges_from(people_graph[0].edges())
-    V.add_edges_from(people_graph[1].edges())
+    V.add_edges_from(people_graph[0].edges(data=True))
+    V.add_edges_from(people_graph[1].edges(data=True))
 
     v_communities = list(nx.k_clique_communities(V, 4))
+
+    for community in v_communities:
+        sub_graph = V.subgraph(community)
+        clique_intensity = 0.0
+        for edge in sub_graph.edges(data=True):
+            clique_intensity += edge[2]['weight']
+        clique_intensity = clique_intensity / (nx.number_of_nodes(sub_graph) * (nx.number_of_nodes(sub_graph)-1) / 2)
+        if clique_intensity > 1:
+            pruned_communities.append(community)
+        v_communities = pruned_communities
 
     matches = []
     new_communities = []
